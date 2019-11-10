@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import HeaderPage from '../Header';
-
 class Acceuil extends Component {
 
   render () {
@@ -9,7 +7,17 @@ class Acceuil extends Component {
 
   return (
     <div>
-      <HeaderPage />
+      Hello <br /><br /><br />
+      Hello <br /><br /><br />
+      Hello <br /><br /><br />
+      Hello <br /><br /><br />
+      Hello <br /><br /><br />
+      Hello <br /><br /><br />
+      Hello <br /><br /><br />
+      Hello <br /><br /><br />
+      Hello <br /><br /><br />
+      Hello <br /><br /><br />
+      Hello <br /><br /><br />
     </div>
   );
 }

@@ -49,7 +49,8 @@ const headerStyle = {
     flexWrap: "nowrap"
   },
   flex: {
-    flex: 1
+    flex: 1,
+    textAlign: "left"
   },
   title: {
     ...defaultFont,
@@ -63,7 +64,8 @@ const headerStyle = {
     "&:hover,&:focus": {
       color: "inherit",
       background: "transparent"
-    }
+    },
+    textAlign : "left"
   },
   appResponsive: {
     margin: "20px 10px"
@@ -105,10 +107,10 @@ const headerStyle = {
       "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(233, 30, 99, 0.46)"
   },
   transparent: {
-    backgroundColor: "transparent !important",
+    backgroundColor: "rgb(255,255,255,0.6) !important",
     boxShadow: "none",
-    paddingTop: "25px",
-    color: "#FFFFFF"
+    paddingTop: "10px",
+    color: "#000000"
   },
   dark: {
     color: "#FFFFFF",

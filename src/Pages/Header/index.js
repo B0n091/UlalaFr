@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 // nodejs library that concatenates classes
 //import classNames from "classnames";
@@ -12,18 +12,18 @@ import Header from "../../Composants/Header/Header.js";
 // import Footer from "Composants/Footer/Footer.js";
 import GridContainer from "../../Composants/Grid/GridContainer.js";
 import GridItem from "../../Composants/Grid/GridItem.js";
-import Button from "../../Composants/CustomButtons/Button.js";
+//import Button from "../../Composants/CustomButtons/Button.js";
 import HeaderLinks from "../../Composants/Header/HeaderLinks.js";
 import Parallax from "../../Composants/Parallax/Parallax.js";
 
-import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
+import styles from "../../assets/jss/material-kit-react/views/components.js";
 
 // Sections for this page
 // import ProductSection from "./Sections/ProductSection.js";
 // import TeamSection from "./Sections/TeamSection.js";
 // import WorkSection from "./Sections/WorkSection.js";
 
-const dashboardRoutes = [];
+//const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
@@ -33,7 +33,7 @@ export default function LandingPage(props) {
   return (
     <div>
       <Header
-        brand="Material Kit React"
+        brand="Ulala France"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -43,15 +43,16 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("../../assets/img/bg4.jpg")}>
+      <Parallax image={require("../../assets/img/UlalaFond.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Material Kit React.</h1>
+                <h1 className={classes.title}>Ulala France</h1>
                 <h3 className={classes.subtitle}>
-                  A Badass Material-UI Kit based on Material Design.
+                  Bienvenue sur le site communautaire d'Ulala
                 </h3>
+                <h3 className={classes.subtitle}>Vous retrouverez ici divers tutoriels</h3>
               </div>
             </GridItem>
           </GridContainer>

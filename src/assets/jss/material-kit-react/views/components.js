@@ -1,9 +1,9 @@
-import { container } from "assets/jss/material-kit-react.js";
+import { container } from "../../material-kit-react.js";
 
 const componentsStyle = {
   container,
   brand: {
-    color: "#FFFFFF",
+    color: "#000000",
     textAlign: "left"
   },
   title: {
