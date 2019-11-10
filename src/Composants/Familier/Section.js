@@ -9,7 +9,7 @@ class FamilierSection extends Component {
 
 
   return (
-    <div>
+    <div className="FamilierSection">
         <div className="leftSide">
             <img src={require("../../assets/img/" + this.props.Img)} alt={this.props.Img}/>
         </div>
