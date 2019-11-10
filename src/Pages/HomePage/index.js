@@ -11,6 +11,7 @@ import styles from "../../assets/jss/material-kit-react/views/components.js";
 import HeaderPage from "../Header"
 import Footer from "../../Composants/Footer/Footer"
 import Acceuil from "../Acceuil"
+import FamilierPage from "../Familier/index.js";
 
 const useStyles = makeStyles(styles);
 
@@ -19,6 +20,9 @@ export default function HomePage(props) {
   const pages = (
     <Switch>
       <Route exact path="/" component={Acceuil}/>
+      <Route path="/classe" component={Acceuil} />
+      <Route path="/familier" component={FamilierPage} />
+      <Route path="/carte" component={Acceuil} />
     </Switch>
   )
   return (
