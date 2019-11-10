@@ -73,7 +73,7 @@ export default function Footer(props) {
           <Favorite className={classes.icon} /> by{" "}
           Nic, Liopal et B0n0
           {" "}
-          for a better web.
+          pour la communauté fr
         </div>
       </div>
     </footer>
