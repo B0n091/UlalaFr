@@ -19,17 +19,17 @@ const imagesStyles = {
   },
   imgCardTop: {
     width: "100%",
-    borderTopLeftRadius: "calc(.25rem - 1px)",
-    borderTopRightRadius: "calc(.25rem - 1px)"
+    borderTopLeftRadius: "calc(.25rem-1px)",
+    borderTopRightRadius: "calc(.25rem-1px)"
   },
   imgCardBottom: {
     width: "100%",
-    borderBottomLeftRadius: "calc(.25rem - 1px)",
-    borderBottomRightRadius: "calc(.25rem - 1px)"
+    borderBottomLeftRadius: "calc(.25rem-1px)",
+    borderBottomRightRadius: "calc(.25rem-1px)"
   },
   imgCard: {
     width: "100%",
-    borderRadius: "calc(.25rem - 1px)"
+    borderRadius: "calc(.25rem-1px)"
   },
   imgCardOverlay: {
     position: "absolute",

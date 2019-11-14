@@ -1,0 +1,87 @@
+.makeStyles-main-5 {
+    min-width: 1111px;
+}
+
+.divCarte, .divDeckList, .divCartesList {
+    display: flex;
+}
+
+.contentDeckList
+{
+    border-top: 1px solid;
+}
+
+.bonusEffect {
+    margin-bottom: 8px;
+}
+.divCartesList {
+    width : 60%;
+    display: block;
+    border: 1px solid;   
+}
+.deckBonusLeft, .deckBonusRight {
+    width: 50%;
+display: inherit;
+}
+
+.contentCartesList {
+    height: 640px;
+overflow: auto;
+min-width: 700px;
+border-top: 1px solid;
+}
+
+.divDeckList {
+    overflow: auto;
+    height: auto;
+display: inline-table;
+border: 1px solid;
+max-width: 411px;
+margin : 0 auto;
+}
+
+.divDeckBonus {
+    overflow: auto;
+    height: auto;
+display: inline-table;
+border-top: 1px solid;
+width: 411px;
+margin : 0 auto;
+padding: 8px 0;
+}
+
+.divTypeRegionBonus {
+    padding: 0 16px;
+    max-height: 145px;
+overflow: auto;
+border-top: 1px solid;
+}
+
+.maxDeckList {
+    max-height: 640px;
+}
+
+.carte{
+    width: 20%;
+    display: inline-flex;
+    margin: 16px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 0 6px darkgray;
+    transition: transform .2s
+}
+
+.deckCarte {
+    width: 25%;
+    display: inline-flex;
+    margin: 16px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 0 6px darkgray;
+}
+
+.carte:hover {
+    transform: scale(1.1)
+}
