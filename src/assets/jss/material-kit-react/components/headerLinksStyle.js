@@ -24,7 +24,7 @@ const headerLinksStyle = theme => ({
     [theme.breakpoints.down("sm")]: {
       width: "100%",
       "&:after": {
-        width: "calc(100% - 30px)",
+        width: "calc(100%-30px)",
         content: '""',
         display: "block",
         height: "1px",
@@ -53,7 +53,7 @@ const headerLinksStyle = theme => ({
       background: "rgba(200, 200, 200, 0.2)"
     },
     [theme.breakpoints.down("sm")]: {
-      width: "calc(100% - 30px)",
+      width: "calc(100%-30px)",
       marginLeft: "15px",
       marginBottom: "8px",
       marginTop: "8px",
