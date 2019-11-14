@@ -110,7 +110,7 @@ class CartePage extends Component {
       <div className="divCartesList">
       <h1>Liste des cartes</h1>
         {dListCartes}
-      </div>>
+      </div>
       <div className="divDeckList">
       <h1>Deck</h1>
       <div className="maxDeckList">
