@@ -34,8 +34,8 @@ const popoverStyles = {
     fontSize: "1.125rem",
     margin: "0",
     color: "#555",
-    borderTopLeftRadius: "calc(0.3rem - 1px)",
-    borderTopRightRadius: "calc(0.3rem - 1px)"
+    borderTopLeftRadius: "calc(0.3rem-1px)",
+    borderTopRightRadius: "calc(0.3rem-1px)"
   },
   popoverBody: {
     padding: "10px 15px 15px",

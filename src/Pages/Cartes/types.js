@@ -1,5 +1,6 @@
 const listTypes = {
-    "Machoires" : {
+    "Machoire" : {
+        nom : "Machoires",
         Nombre : 0,
         nbBonus : 3,
         Bonus : [
@@ -8,7 +9,8 @@ const listTypes = {
             "Les auto attaques appliquent 1 couche de la carte [Mâchoire géante] supplémentaire. Quand une 4ème couche est empillées, l'auto-attaque suivante infligeras + 188% de Dégats d'ataque"
         ],
     },
-    "Duvet " : {
+    "Duvet" : {
+        nom : "Duvet",
         Nombre : 0,
         nbBonus : 3, 
         Bonus : [
@@ -16,6 +18,7 @@ const listTypes = {
         ]
     },
     "Carapace" : {
+        nom : "Carapace",
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
@@ -25,6 +28,7 @@ const listTypes = {
         ]
     },
     "Ailes" : {
+        nom : "Ailes",
         Nombre : 0,
         nbBonus : 3, 
         Bonus : [
@@ -32,7 +36,8 @@ const listTypes = {
             "Lorsque vous commencer un combat, vous donne +40% d'attaque ET +1200 de perforation DU CUMUL DES CARTES [Ailes]"
         ]
     }, //Here
-    "Agile " : {
+    "Agile" : {
+        nom : "Agile",
         Nombre : 0,
         nbBonus : 3, 
         Bonus : [
@@ -42,6 +47,7 @@ const listTypes = {
         ]
     },
     "Poison" : {
+        nom : "Poison",
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
@@ -49,6 +55,7 @@ const listTypes = {
         ]
     },
     "Os" : {
+        nom : "Os",
         Nombre : 0,
         nbBonus : 3, 
         Bonus : [
@@ -57,6 +64,7 @@ const listTypes = {
         ]
     },
     "Griffe" : {
+        nom : "Griffe",
         Nombre : 0,
         nbBonus : 3, 
         Bonus : [
@@ -64,6 +72,7 @@ const listTypes = {
         ]
     },
     "Corne"  : {
+        nom : "Corne",
         Nombre : 0,
         nbBonus : 1, 
         Bonus : [

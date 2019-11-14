@@ -643,7 +643,7 @@ $nav-link-height: (
   $font-size-base * $line-height-base + $nav-link-padding-y * 2
 ) !default;
 $navbar-brand-height: $navbar-brand-font-size * $line-height-base !default;
-$navbar-brand-padding-y: ($nav-link-height - $navbar-brand-height) / 2 !default;
+$navbar-brand-padding-y: ($nav-link-height-$navbar-brand-height) / 2 !default;
 
 $navbar-toggler-padding-y: 0.25rem !default;
 $navbar-toggler-padding-x: 0.75rem !default;
@@ -714,7 +714,7 @@ $card-border-width: $border-width !default;
 $card-border-radius: $border-radius !default;
 $card-border-color: rgba($black, 0.125) !default;
 $card-inner-border-radius: calc(
-  #{$card-border-radius} - #{$card-border-width}
+  #{$card-border-radius}-#{$card-border-width}
 ) !default;
 $card-cap-bg: rgba($black, 0.03) !default;
 $card-bg: $white !default;

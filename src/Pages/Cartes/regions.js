@@ -1,5 +1,6 @@
 const listRegions = {
     "Volcan" : {
+        nom : "Volcan",
         Nombre : 0,
         nbBonus : 2,
         Bonus : [
@@ -9,6 +10,7 @@ const listRegions = {
         ],
     },
     "Plaine" : {
+        nom : "Plaine",
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
@@ -18,6 +20,7 @@ const listRegions = {
         ]
     },
     "Desert" : {
+        nom : "Desert",
         Nombre : 0,
         nbBonus : 3, 
         Bonus : [
@@ -25,6 +28,7 @@ const listRegions = {
         ]
     },
     "Foret" : {
+        nom : "Foret",
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
@@ -33,6 +37,7 @@ const listRegions = {
         ]
     },
     "Gorge" : {
+        nom : "Gorge",
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
@@ -41,6 +46,7 @@ const listRegions = {
         ]
     },
     "Oasis" : {
+        nom : "Oasis",
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
@@ -49,6 +55,7 @@ const listRegions = {
         ]
     },
     "Bois" : {
+        nom : "Bois",
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
@@ -57,6 +64,7 @@ const listRegions = {
         ]
     },
     "Montagne" : {
+        nom : "Montagne",
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
@@ -65,6 +73,7 @@ const listRegions = {
         ]
     },
     "Cote"  : {
+        nom : "Cote",
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
@@ -73,6 +82,7 @@ const listRegions = {
         ]
     },
     "Chaines" : {
+        nom : "Chaines",
         Nombre : 0,
         nbBonus : 1, 
         Bonus : [
@@ -80,6 +90,7 @@ const listRegions = {
         ]
     },
     "LakeLand" : {
+        nom : "LakeLand",
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
