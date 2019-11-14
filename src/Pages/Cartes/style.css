@@ -2,6 +2,42 @@
     display: contents;
 }
 
+ @media screen and (max-width: 940px) {
+    .makeStyles-main-5 {
+        max-width: 940px !important;
+        min-width: unset !important;
+    }
+    .divCarte, .divDeckList, .divCartesList {
+        display: block !important;
+    }
+    .divCartesList {
+        max-width: 940px !important;
+        width: 100% !important; 
+    }
+    .contentCartesList {
+        height: 640px !important;
+        overflow: auto !important;
+        border-top: 1px solid !important;
+        width: 100% !important;
+        display: block !important;
+    }
+    .divDeckList {
+        overflow: none !important;
+        height: none !important;
+    display: block !important;
+    border: 1px solid !important;
+    max-width: none !important;
+    margin : 0 auto !important;
+    width: 60% !important;
+    }
+    .maxDeckList {
+        max-width: 940px !important;
+    }
+    .divTypeRegionBonus{
+        max-height: unset !important;
+    }
+}
+
 .makeStyles-main-5 {
     min-width: 1111px;
 }
