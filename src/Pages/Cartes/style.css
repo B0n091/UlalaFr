@@ -29,6 +29,7 @@
     max-width: none !important;
     margin : 0 auto !important;
     width: 60% !important;
+    min-width: 415px !important;
     }
     .maxDeckList {
         max-width: 940px !important;
