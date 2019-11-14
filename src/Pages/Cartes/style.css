@@ -13,6 +13,7 @@
     .divCartesList {
         max-width: 940px !important;
         width: 100% !important; 
+        min-width: unset !important;
     }
     .contentCartesList {
         height: 640px !important;
@@ -20,6 +21,7 @@
         border-top: 1px solid !important;
         width: 100% !important;
         display: block !important;
+        min-width: unset !important;
     }
     .divDeckList {
         overflow: none !important;
