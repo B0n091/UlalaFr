@@ -65,24 +65,24 @@ const listCartes = [
         types : ["Duvet"],
         bonus : ["ATQ +150-ARMURE +50", "ATQ +300-ARMURE +100", "ATQ +900-ARMURE +300"]
     }, 
-    // {
-    //     nom : "Brontotheridé" ,
-    //     regions : ["Lakeland"],
-    //     types : ["Corne"],
-    //     bonus : ["PV +500-ATQ +200","PV +1000-ATQ +400","PV +3000-ATQ +1200"]
-    // }, 
-    // {
-    //     nom : "Rhinocéros",
-    //     regions : ["Lakeland"],
-    //     types : ["Corne"],
-    //     bonus : ["ATQ +300", "ATQ +600", "ATQ +1800"]
-    // }, 
-    // {
-    //     nom : "Marmotte",
-    //     regions : ["Lakeland"],
-    //     types : ["Agile"],
-    //     bonus : ["PV +1000-ATQ +100","PV +2000-ATQ +200","PV +6000-ATQ +600"]
-    // }, 
+    {
+        nom : "Brontotheridé" ,
+        regions : ["Lakeland"],
+        types : ["Corne"],
+        bonus : ["PV +500-ATQ +200","PV +1000-ATQ +400","PV +3000-ATQ +1200"]
+    }, 
+    {
+        nom : "Rhinocéros",
+        regions : ["Lakeland"],
+        types : ["Corne"],
+        bonus : ["ATQ +300", "ATQ +600", "ATQ +1800"]
+    }, 
+    {
+        nom : "Marmotte",
+        regions : ["Lakeland"],
+        types : ["Agile"],
+        bonus : ["PV +1000-ATQ +100","PV +2000-ATQ +200","PV +6000-ATQ +600"]
+    }, 
     {
         nom : "Gorille-licorne",
         regions : ["Gorge"],
@@ -137,12 +137,12 @@ const listCartes = [
         types : ["Griffe"],
         bonus : ["ATQ +450", "ATQ +900", "ATQ +2700"]
     }, 
-    // {
-    //     nom : "Rhinocéros en chef",
-    //     regions : ["Lakeland"],
-    //     types : ["Corne"],
-    //     bonus : ["PV +750-ATQ +300", "PV +750-ATQ +600", "PV +750-ATQ +1800"]
-    // }, 
+    {
+        nom : "Rhinocéros en chef",
+        regions : ["Lakeland"],
+        types : ["Corne"],
+        bonus : ["PV +750-ATQ +300", "PV +750-ATQ +600", "PV +750-ATQ +1800"]
+    }, 
     {
         nom : "T.Rex",
         regions : ["Plaine", "Volcan"],
