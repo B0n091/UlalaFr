@@ -39,7 +39,7 @@
     .divTypeRegionBonus{
         max-height: unset !important;
     }
-    .carte img{
+    .deckCarte img, .carte img{
         width: 100%;
     }
 }
@@ -84,7 +84,7 @@
     .divDeckBonus {
     width: 100% !important;
     }
-    .carte img{
+    .deckCarte img, .carte img{
         width: 100%;
     }
 }
@@ -164,7 +164,7 @@ border-top: 1px solid;
     transition: transform .2s
 }
 
-.carte img{
+.deckCarte img, .carte img{
     width: 100%;
 }
 
