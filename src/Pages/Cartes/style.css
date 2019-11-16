@@ -90,6 +90,9 @@
     }
     .carte {
         max-height: 15vh;
+        max-width: 25vh;
+        min-width: 100px;
+        min-height: 100px;
     }
 }
 
