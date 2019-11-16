@@ -77,6 +77,7 @@
     }
     .maxDeckList {
         max-width: 1111px !important;
+        max-height: unset !important;
     }
     .divTypeRegionBonus{
         max-height: unset !important;
