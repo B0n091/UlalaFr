@@ -94,7 +94,9 @@ const listRegions = {
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
-            "Lorsque vous accédez au champ de bataille, PV +40%, ATQ +20% de la carte Lake Land"
+            "Lorsque vous accédez au champ de bataille, PV +40%, ATQ +20% de la carte Lake Land",
+            "Lorsque vous accédez au champ de bataille, PV +40%, ATQ +20% de la carte Lake Land",
+            "Lorsque vous accédez au champ de bataille, PV +40%, ATQ +20% de la carte Lake Land",
         ]
     },    
 }
