@@ -88,6 +88,9 @@
     .deckCarte img, .carte img{
         width: 100%;
     }
+    .carte {
+        height: auto;
+    }
 }
 
 .makeStyles-main-5 {
@@ -156,6 +159,7 @@ border-top: 1px solid;
 
 .carte{
     width: 20%;
+    height: auto;
     display: inline-flex;
     margin: 16px;
     cursor: pointer;

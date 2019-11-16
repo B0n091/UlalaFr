@@ -89,7 +89,7 @@ const listRegions = {
             "Si 1 type de carte de Chaine de montagne est équipé, DEG ATQ +5% basique"
         ]
     },
-    "LakeLand" : {
+    "Lakeland" : {
         nom : "LakeLand",
         Nombre : 0,
         nbBonus : 2, 
