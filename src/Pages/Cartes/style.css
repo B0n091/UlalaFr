@@ -76,7 +76,7 @@
     min-width: unset !important;
     }
     .maxDeckList {
-        max-width: 1111px !important;
+        max-width: 640px !important;
         max-height: unset !important;
     }
     .divTypeRegionBonus{
@@ -89,7 +89,7 @@
         width: 100%;
     }
     .carte {
-        height: auto;
+        max-height: 20vh;
     }
 }
 
