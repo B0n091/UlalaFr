@@ -88,11 +88,15 @@
     .deckCarte img, .carte img{
         width: 100%;
     }
-    .carte {
+    .carte, {
         max-height: 15vh;
         max-width: 25vh;
         min-width: 100px;
         min-height: 100px;
+    }
+    .divDeckList .deckCarte {
+        width: 125px;
+        height: 125px;
     }
 }
 
