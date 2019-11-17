@@ -317,14 +317,14 @@ const listCartes = [
         nom :  "Dragon Reine",
         regions : ["Foret"],
         types : ["Agile"],
-        bonus : ["PV +2250-Ténacité +225", "PV +4500-Ténacité +450", "PV +1350-Ténacité +1350"],
+        bonus : ["PV +2250-Ténacité +225", "PV +4500-Ténacité +450", "PV +13500-Ténacité +1350"],
         bonusCarte : "Lorsque vous rentrez en combat , Toutes les personnes receoivent +6300 PV et +180 armure"
     }, 
     {
         nom : "Mammouth",
         regions : ["Foret"],
         types : ["Os"],
-        bonus : ["PV +2250-CRIT +225", "PV +4500-CRIT +450", "PV +1350-CRIT +1350"],
+        bonus : ["PV +2250-CRIT +225", "PV +4500-CRIT +450", "PV +13500-CRIT +1350"],
         bonusCarte : "Lorsque vous rentrez en combat , Toutes les personnes receoivent +450 CRIT, et +450 Perforation"
     }, 
 ]
