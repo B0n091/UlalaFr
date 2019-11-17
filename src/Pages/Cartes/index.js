@@ -20,6 +20,7 @@ class CartePage extends Component {
         "Perforation" : 0,
         "CRIT" : 0,
         "Ténacité" : 0,
+        "Parade" :0,
       stateListTypes : listTypes,
       stateListRegions : listRegions
     }
@@ -110,7 +111,7 @@ class CartePage extends Component {
       <div className="divCartesList">
       <h1>Liste des cartes</h1>
         {dListCartes}
-      </div>>
+      </div>
       <div className="divDeckList">
       <h1>Deck</h1>
       <div className="maxDeckList">
@@ -120,6 +121,7 @@ class CartePage extends Component {
           Ataque : {this.state["ATQ"]} <br />
           Armure : {this.state["ARMURE"]}<br />
           PV : {this.state["PV"]}<br />
+          Parade : {this.state["Parade"]}<br />
         </div>
         <div className="deckBonusRight">
           Perforation : {this.state["Perforation"]}<br />

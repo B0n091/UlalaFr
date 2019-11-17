@@ -89,12 +89,14 @@ const listRegions = {
             "Si 1 type de carte de Chaine de montagne est équipé, DEG ATQ +5% basique"
         ]
     },
-    "LakeLand" : {
+    "Lakeland" : {
         nom : "LakeLand",
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
-            "Lorsque vous accédez au champ de bataille, PV +40%, ATQ +20% de la carte Lake Land"
+            "Lorsque vous accédez au champ de bataille, PV +40%, ATQ +20% de la carte Lake Land",
+            "Lorsque vous accédez au champ de bataille, PV +40%, ATQ +20% de la carte Lake Land",
+            "Lorsque vous accédez au champ de bataille, PV +40%, ATQ +20% de la carte Lake Land",
         ]
     },    
 }
