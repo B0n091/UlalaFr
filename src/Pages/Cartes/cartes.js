@@ -147,7 +147,7 @@ const listCartes = [
         nom : "T.Rex",
         regions : ["Plaine", "Volcan"],
         types : ["Machoire"],
-        bonus : ["ATQ +300-CRIT +150", "ATQ +600-CRIT +150", "ATQ +1800-CRIT +150"]
+        bonus : ["ATQ +300-CRIT +150", "ATQ +600-CRIT +300", "ATQ +1800-CRIT +900"]
     }, 
     {
         nom : "Placoderme de roche",
