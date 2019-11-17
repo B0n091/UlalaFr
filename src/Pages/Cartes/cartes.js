@@ -65,24 +65,24 @@ const listCartes = [
         types : ["Duvet"],
         bonus : ["ATQ +150-ARMURE +50", "ATQ +300-ARMURE +100", "ATQ +900-ARMURE +300"]
     }, 
-    // {
-    //     nom : "Brontotheridé" ,
-    //     regions : ["Lakeland"],
-    //     types : ["Corne"],
-    //     bonus : ["PV +500-ATQ +200","PV +1000-ATQ +400","PV +3000-ATQ +1200"]
-    // }, 
-    // {
-    //     nom : "Rhinocéros",
-    //     regions : ["Lakeland"],
-    //     types : ["Corne"],
-    //     bonus : ["ATQ +300", "ATQ +600", "ATQ +1800"]
-    // }, 
-    // {
-    //     nom : "Marmotte",
-    //     regions : ["Lakeland"],
-    //     types : ["Agile"],
-    //     bonus : ["PV +1000-ATQ +100","PV +2000-ATQ +200","PV +6000-ATQ +600"]
-    // }, 
+    {
+        nom : "Brontotheridé" ,
+        regions : ["Lakeland"],
+        types : ["Corne"],
+        bonus : ["PV +500-ATQ +200","PV +1000-ATQ +400","PV +3000-ATQ +1200"]
+    }, 
+    {
+        nom : "Rhinocéros",
+        regions : ["Lakeland"],
+        types : ["Corne"],
+        bonus : ["ATQ +300", "ATQ +600", "ATQ +1800"]
+    }, 
+    {
+        nom : "Marmotte",
+        regions : ["Lakeland"],
+        types : ["Agile"],
+        bonus : ["PV +1000-ATQ +100","PV +2000-ATQ +200","PV +6000-ATQ +600"]
+    }, 
     {
         nom : "Gorille-licorne",
         regions : ["Gorge"],
@@ -111,7 +111,7 @@ const listCartes = [
         nom : "Chouette",
         regions : ["Gorge"],
         types : ["Ailes"],
-        bonus : ["PV +1125-ATQ +225", "PV +2250 et ATQ +450", "PV 6750 et ATQ +1350"]
+        bonus : ["PV +1125-ATQ +225", "PV +2250-ATQ +450", "PV +6750-ATQ +1350"]
     }, 
     {
         nom : "Dodo des plaines enneigées",
@@ -137,17 +137,17 @@ const listCartes = [
         types : ["Griffe"],
         bonus : ["ATQ +450", "ATQ +900", "ATQ +2700"]
     }, 
-    // {
-    //     nom : "Rhinocéros en chef",
-    //     regions : ["Lakeland"],
-    //     types : ["Corne"],
-    //     bonus : ["PV +750-ATQ +300", "PV +750-ATQ +600", "PV +750-ATQ +1800"]
-    // }, 
+    {
+        nom : "Rhinocéros en chef",
+        regions : ["Lakeland"],
+        types : ["Corne"],
+        bonus : ["PV +750-ATQ +300", "PV +750-ATQ +600", "PV +750-ATQ +1800"]
+    }, 
     {
         nom : "T.Rex",
         regions : ["Plaine", "Volcan"],
         types : ["Machoire"],
-        bonus : ["ATQ +300-CRIT + 150", "ATQ +600-CRIT + 150", "ATQ +1800-CRIT + 150"]
+        bonus : ["ATQ +300-CRIT +150", "ATQ +600-CRIT +150", "ATQ +1800-CRIT +150"]
     }, 
     {
         nom : "Placoderme de roche",
@@ -177,7 +177,7 @@ const listCartes = [
         nom : "Dragon des montagnes",
         regions : ["Bois"],
         types : ["Carapace"],
-        bonus : ["Armure +100-Parade +150", "Armure +200-Parade +300", "Armure +600-Parade +900"]
+        bonus : ["ARMURE +100-Parade +150", "ARMURE +200-Parade +300", "ARMURE +600-Parade +900"]
     }, 
     {
         nom :  "Ptérosaure agile",
@@ -195,7 +195,7 @@ const listCartes = [
         nom : "Renard du désert" ,
         regions : ["Desert"],
         types : ["Agile"],
-        bonus : ["PV +1500-Armure +100", "PV +3000-Armure +200", "PV +9000-Armure +600"]
+        bonus : ["PV +1500-ARMURE +100", "PV +3000-ARMURE +200", "PV +9000-ARMURE +600"]
     }, 
     {
         nom : "Vargr",
@@ -231,7 +231,7 @@ const listCartes = [
         nom : "Bête de lave en chef",
         regions : ["Volcan"],
         types : ["Machoire"],
-        bonus : ["PV +2250-CRIT +150", "PV +4500 et CRIT +300", "PV +1350 et CRIT +900"]
+        bonus : ["PV +2250-CRIT +150", "PV +4500-CRIT +300", "PV +13500-CRIT +900"]
     }, 
     {
         nom : "Radobaan",
@@ -244,7 +244,7 @@ const listCartes = [
         nom : "Dragon-Tyran",
         regions : ["Chaines"],
         types : ["Machoire"],
-        bonus : ["ATQ +300-CRIT +150", "ATQ +600-CRIT +300", "ATQ +1800-CRIT +900"],
+        bonus : ["ATQ +450-CRIT +150", "ATQ +900-CRIT +300", "ATQ +2700-CRIT +900"],
         bonusCarte : "Lorsque des attaques basique font un critique, aplique 1 couche supplémentaire de [Mâchorie géante]"
     }, 
     {
@@ -264,7 +264,7 @@ const listCartes = [
         nom : "Vargr Alpha",
         regions : ["Foret"],
         types : ["Agile"],
-        bonus : ["PV +2250-Ténacité +150", "PV +4500-Ténacité +300", "PV +1350-Ténacité +900"],
+        bonus : ["PV +2250-Ténacité +150", "PV +4500-Ténacité +300", "PV +13500-Ténacité +900"],
         bonusCarte : "Après le lien de [Fôret tropicale] les soins prodigués sont augmenté +25%"
     }, 
     {
@@ -277,14 +277,14 @@ const listCartes = [
         nom :  "Dragon-Lion",
         regions : ["Volcan"],
         types : ["Os"],
-        bonus : ["ATQ +450-Armure + 100", "ATQ +900-Armure + 200", "ATQ +2700-Armure + 600"],
+        bonus : ["ATQ +450-ARMURE + 100", "ATQ +900-ARMURE +200", "ATQ +2700-ARMURE +600"],
         bonusCarte : "Déclencher l'effet [Os solide] sur les cibles ayant moins de 30% de leurs PV; Soignez l'équivalent de 5% de vos dégats d'ATQ"
     }, 
     {
         nom : "Elan Irlandais",
         regions : ["Plaine"],
         types : ["Duvet"],
-        bonus : ["ATQ +450-Armure + 100", "ATQ +900-Armure + 200", "ATQ +2700-Armure + 600"]
+        bonus : ["ATQ +450-ARMURE + 100", "ATQ +900-ARMURE + 200", "ATQ +2700-ARMURE + 600"]
     }, 
     {
         nom : "Dragon griffu",
@@ -317,14 +317,14 @@ const listCartes = [
         nom :  "Dragon Reine",
         regions : ["Foret"],
         types : ["Agile"],
-        bonus : ["PV +2250-Ténacité +225", "PV +4500-Ténacité +450", "PV +1350-Ténacité +1350"],
+        bonus : ["PV +2250-Ténacité +225", "PV +4500-Ténacité +450", "PV +13500-Ténacité +1350"],
         bonusCarte : "Lorsque vous rentrez en combat , Toutes les personnes receoivent +6300 PV et +180 armure"
     }, 
     {
         nom : "Mammouth",
         regions : ["Foret"],
         types : ["Os"],
-        bonus : ["PV +2250-CRIT +225", "PV +4500-CRIT +450", "PV +1350-CRIT +1350"],
+        bonus : ["PV +2250-CRIT +225", "PV +4500-CRIT +450", "PV +13500-CRIT +1350"],
         bonusCarte : "Lorsque vous rentrez en combat , Toutes les personnes receoivent +450 CRIT, et +450 Perforation"
     }, 
 ]

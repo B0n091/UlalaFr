@@ -1,3 +1,105 @@
+/* .jss5.jss6 {
+    display: contents;
+} */
+
+ @media screen and (max-width: 1111px) {
+    .makeStyles-main-5 {
+        max-width: 1111px !important;
+        min-width: unset !important;
+    }
+    .divCarte, .divDeckList, .divCartesList {
+        display: block !important;
+    }
+    .divCartesList {
+        max-width: 1111px !important;
+        width: 100% !important; 
+        min-width: unset !important;
+    }
+    .contentCartesList {
+        height: 640px !important;
+        overflow: auto !important;
+        border-top: 1px solid !important;
+        width: 100% !important;
+        display: block !important;
+        min-width: unset !important;
+    }
+    .divDeckList {
+        overflow: none !important;
+        height: none !important;
+    display: block !important;
+    border: 1px solid !important;
+    max-width: none !important;
+    margin : 0 auto !important;
+    width: 60% !important;
+    min-width: 415px !important;
+    }
+    .maxDeckList {
+        max-width: 1111px !important;
+    }
+    .divTypeRegionBonus{
+        max-height: unset !important;
+    }
+    .deckCarte img, .carte img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .makeStyles-main-5 {
+        max-width: 640px !important;
+        min-width: unset !important;
+    }
+    .divCarte, .divDeckList, .divCartesList {
+        display: block !important;
+    }
+    .divCartesList {
+        max-width: 640px !important;
+        width: 100% !important; 
+        min-width: unset !important;
+    }
+    .contentCartesList {
+        height: 640px !important;
+        overflow: auto !important;
+        border-top: 1px solid !important;
+        width: 100% !important;
+        display: block !important;
+        min-width: unset !important;
+    }
+    .divDeckList {
+        overflow: none !important;
+        height: none !important;
+    display: block !important;
+    border: 1px solid !important;
+    max-width: none !important;
+    margin : 0 auto !important;
+    width: 100% !important;
+    min-width: unset !important;
+    }
+    .maxDeckList {
+        max-width: 640px !important;
+        max-height: unset !important;
+    }
+    .divTypeRegionBonus{
+        max-height: unset !important;
+    }
+    .divDeckBonus {
+    width: 100% !important;
+    }
+    .deckCarte img, .carte img{
+        width: 100%;
+    }
+    .carte{
+        max-height: 15vh;
+        max-width: 25vh;
+        min-width: 100px;
+        min-height: 100px;
+    }
+    .divDeckList .deckCarte {
+        width: 125px;
+        height: 125px;
+    }
+}
+
 .makeStyles-main-5 {
     min-width: 1111px;
 }
@@ -71,6 +173,11 @@ border-top: 1px solid;
     border-radius: 6px;
     box-shadow: 0 0 6px darkgray;
     transition: transform .2s
+}
+
+.deckCarte img, .carte img{
+    width: 100%;
+    height: 100%+;
 }
 
 .deckCarte {

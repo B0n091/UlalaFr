@@ -77,6 +77,8 @@ const listTypes = {
         nbBonus : 1, 
         Bonus : [
             "lorsque vous rentrez en combat , vous donne + 30% d'attaque DU CUMUL DES CARTES [Corne Lourde]",
+            "lorsque vous rentrez en combat , vous donne + 30% d'attaque DU CUMUL DES CARTES [Corne Lourde]",
+            "lorsque vous rentrez en combat , vous donne + 30% d'attaque DU CUMUL DES CARTES [Corne Lourde]",
         ]
     },
 }

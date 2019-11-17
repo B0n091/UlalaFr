@@ -1,6 +1,6 @@
 .leftSide {
     width: 25%;
-    display: inline-block;
+    display: inline-table;
 }
 
 .leftSide img {
@@ -12,8 +12,5 @@
     width: 75%;
     display: inline-block;
     text-align: left;
-}
-
-.FamilierSection {
-    display: inline-flex;
+    vertical-align: top;
 }
