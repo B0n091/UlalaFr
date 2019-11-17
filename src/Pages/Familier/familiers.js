@@ -1671,3 +1671,6 @@ const listFamiliers = [
         element : "???"
     },
 ]
+
+
+export default listFamiliers
