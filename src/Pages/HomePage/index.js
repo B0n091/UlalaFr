@@ -13,6 +13,7 @@ import Footer from "../../Composants/Footer/Footer"
 import Acceuil from "../Acceuil"
 import FamilierPage from "../Familier/index.js";
 import CartePage from "../Cartes/index.js";
+import UlalaDex from "../Familier/ulaladex.js";
 
 const useStyles = makeStyles(styles);
 
@@ -24,6 +25,7 @@ export default function HomePage(props) {
       <Route path="/classe" component={Acceuil} />
       <Route path="/familier" component={FamilierPage} />
       <Route path="/cartes" component={CartePage} />
+      <Route path="/ulaladex" component={UlalaDex} />
     </Switch>
   )
   return (
