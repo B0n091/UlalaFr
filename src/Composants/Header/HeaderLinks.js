@@ -48,15 +48,22 @@ export default function HeaderLinks(props) {
         />
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="/Familier" >
-        <Button
-        href="#"
-          color="transparent"
-          className={classes.navLink}
-        >
-          Familier
-        </Button>
-        </Link>
+      <CustomDropdown
+          noLiPadding
+          buttonText="Familier"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          dropdownList={[
+            <Link to="/familier" className={classes.dropdownLink}>
+              Tutoriel
+            </Link>,
+            <Link to="/ulaladex" className={classes.dropdownLink}>
+              UlalaDex
+            </Link>,                      
+          ]}
+        />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link to="/Cartes" >
