@@ -12,10 +12,11 @@
 }
 
 .Filter {
-    display: inline-flex;
+    display: inline-block;
     width: 30vw;
     border : 1px solid;
     height: 80vh;
+    vertical-align: top;
 }
 
 .ulalaDex {
