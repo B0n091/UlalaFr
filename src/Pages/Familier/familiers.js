@@ -1,7 +1,6 @@
-const listFamiliers = [ 
+const   listFamiliers = [ 
     {  
         nom : "Mobelin",
-        attribut : "Symbiose",
         type : "Herbivore",
         favori : "Brochette",
         zone : "Forêt tropicale de Sabada",
@@ -72,17 +71,17 @@ const listFamiliers = [
         element : "Terre:6-Givre:4"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Grenouille nageoire",
+        attribut : "Symbiose",
+        type : "",
+        favori : "Ragoût de légumes sauvage",
+        zone : "Côte Nord-est (continent de foudre",
         numéro : 9,
-        element : "???"
+        element : "Eau:6-Feu:4"
     },
     {  
         nom : "Gorille-licorne",
-        attribut : "Guardien",
+        attribut : "Gardien",
         type : "Herbivore",
         favori : "Jue de fruit",
         zone : "Forêt tropicale de Sabada",
@@ -144,7 +143,7 @@ const listFamiliers = [
         element : "Terre:5-Givre:5"
     },
     {  
-        nom : "Rapto",
+        nom : "Raptor",
         attribut : "ATQ",
         type : "Dragon terre",
         favori : "oeuf au plat",
@@ -153,13 +152,13 @@ const listFamiliers = [
         element : "Feu:7-Foudre:3"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
+        nom : "Pissenlit",
+        attribut : "Assistance",
+        type : "",
         favori : "???",
-        zone : "???",
+        zone : "mille-Aiguilles",
         numéro : 18,
-        element : "???"
+        element : "Foudre:5-Terre:5"
     },
     {
         nom : "???",
@@ -208,19 +207,19 @@ const listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Pangolin",
+        attribut : "Gardien",
+        type : "Bête",
+        favori : "Truffes à la côte",
+        zone : "Mille Aiguilles",
         numéro : 24,
-        element : "???"
+        element : "Terre:6-Foudre:4"
     },
     {  
         nom : "Mobelin noir",
         attribut : "Symbiose",
         type : "Herbivore",
-        favori : "Ragout de viande auax legumes sauvages",
+        favori : "Ragoût de viande aux légumes sauvages",
         zone : "Gorge de Chiwawa",
         numéro : 25,
         element : "Terre:7-Foudre:3"
@@ -253,22 +252,22 @@ const listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
+        nom : "Chouette Blanche",
+        attribut : "Symbiose",
         type : "???",
-        favori : "???",
+        favori : "Potage aux légumes sauvages",
         zone : "???",
         numéro : 29,
-        element : "???"
-    },
+        element : "Givre:6-Terre:4"
+     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Eperon",
+        attribut : "ATQ",
+        type : "Volant",
+        favori : "Sashimi de calmar",
+        zone : "Met de Rabo",
         numéro : 30,
-        element : "???"
+        element : "Terre:6-Givre:4"
     },
     {  
         nom : "Brontosaure",
@@ -298,13 +297,13 @@ const listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Dragon couronne de roche",
+        attribut : "Symbiose",
+        type : "Dragon Terre",
+        favori : "Combat de fruits et légumes",
+        zone : "Désert de Cora",
         numéro : 34,
-        element : "???"
+        element : "Foudre:4-Terre:6"
     },
     {  
         nom : "Chameau",
@@ -794,13 +793,13 @@ const listFamiliers = [
     },
     
     {
-        nom : "???",
-        attribut : "???",
+        nom : "Poisson Bouclier",
+        attribut : "Gardien",
         type : "???",
-        favori : "???",
-        zone : "???",
+        favori : "Shanhai Brûlant",
+        zone : "La cascade",
         numéro : 89,
-        element : "???"
+        element : "Foudre:8-Terre:2"
     },
     {
     nom : "Brontosaure argyroptère",
@@ -813,16 +812,16 @@ const listFamiliers = [
     },
     {
     nom : "Dragon de Rochenoire",
-    attribut : "Guardien",
+    attribut : "Gardien",
     type : "Dragon terre",
     favori : "Porc aigre doux",
-    zone : "Deset de bata",
+    zone : "Désert de bata",
     numéro : 91,
     element : "Terre:7-Foudre:3"
     },
     {
     nom : "Dragon acaudal de lumière pâle",
-    attribut : "Guardien",
+    attribut : "Gardien",
     type : "Dragon terre",
     favori : "Sashimi du guerrier",
     zone : "Glacier de pucketa",
@@ -832,7 +831,7 @@ const listFamiliers = [
     {
     nom : "Ours noir",
     attribut : "Symbiose",
-    type : "Bete",
+    type : "Bête",
     favori : "Doux comme du miel",
     zone : "Glacier de pucketa",
     numéro : 93,
@@ -841,7 +840,7 @@ const listFamiliers = [
     {
     nom : "tigre blanc alpha",
     attribut : "ATQ",
-    type : "Bete",
+    type : "Bête",
     favori : "Assiette de viandes grillees",
     zone : "Bois de warry",
     numéro : 94,
@@ -849,7 +848,7 @@ const listFamiliers = [
     },
     {
     nom : "Ankylosaure",
-    attribut : "Guardien",
+    attribut : "Gardien",
     type : "Dragon terre",
     favori : "Soupe de coquilles saint jacques aux legumes sauvages",
     zone : "Bois de warry",
@@ -859,14 +858,14 @@ const listFamiliers = [
     {
     nom : "Rhicocéros",
     attribut : "Symbiose",
-    type : "Bete",
+    type : "Bête",
     favori : "Soupe de coquilles saint jacques aux legumes sauvages",
     zone : "Bois de warry",
     numéro : 96,
     element : "Givre:6-Terre:4"
     },
     {
-    nom : "Renar de foudre",
+    nom : "Renard de foudre",
     attribut : "Assistance",
     type : "Herbivore",
     favori : "Melasse",
@@ -895,7 +894,7 @@ const listFamiliers = [
     {
     nom : "Moa géant",
     attribut : "Assistance",
-    type : "Bete",
+    type : "Bête",
     favori : "Takoyaki",
     zone : "Cote de totori",
     numéro : 100,
@@ -903,10 +902,10 @@ const listFamiliers = [
     },
     {
     nom : "Placoderme de Clace",
-    attribut : "Guardien",
+    attribut : "Gardien",
     type : "Aquatique",
     favori : "Takoyaki",
-    zone : "Cote de totori",
+    zone : "Côte de totori",
     numéro : 101,
     element : "Givre:8-Feu:2"
     },
@@ -915,12 +914,12 @@ const listFamiliers = [
     attribut : "Assistance",
     type : "Volant",
     favori : "Crabe thernidor",
-    zone : "Desert de Girka",
+    zone : "Désert de Girka",
     numéro : 102,
     element : "Givre:9-Feu:1"
     },
     {
-    nom : "Renard du deset",
+    nom : "Renard du desert",
     attribut : "Assistance",
     type : "Herbivore",
     favori : "Viande cuite dans des feuilles de lotus",
@@ -948,13 +947,13 @@ const listFamiliers = [
     },
     
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Cerf à grande corne",
+        attribut : "Assistance",
+        type : "Herbivore",
+        favori : "Shanhai pot épicé",
+        zone : "Oasis de Palu",
         numéro : 106,
-        element : "???"
+        element : "Terre:9-Foudre:1"
     },
     {
     nom : "Chameau blanc",
@@ -976,49 +975,49 @@ const listFamiliers = [
     },
     
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Bernard-l’ermite",
+        attribut : "Aquatique",
+        type : "Gardien",
+        favori : "mer et montagne épicé",
+        zone : "Oasis de Paro",
         numéro : 109,
-        element : "???"
+        element : "Terre:8-Givre:2"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Coup de Foudre",
+        attribut : "Gardien",
+        type : "Dragon Terre",
+        favori : "Légumes sauvages intégrés",
+        zone : "Lac salé de Karusa",
         numéro : 110,
-        element : "???"
+        element : "Foudre:9-Feu:1"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Yack Alpha",
+        attribut : "Herbivore",
+        type : "Symbiose",
+        favori : "Mélange de légumes sauvages",
+        zone : "Lac salé de Karusa",
         numéro : 111,
-        element : "???"
+        element : "Foudre:3-Terre:7"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Gerboise d’eau",
+        attribut : "Herbivore",
+        type : "Assistance",
+        favori : "Mer et montagne épicé",
+        zone : "Lac Salé de Karusa",
         numéro : 112,
-        element : "???"
+        element : "Foudre:3-Terre:7"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Placoderme de roche",
+        attribut : "Aquatique",
+        type : "Gardien",
+        favori : "Ragout de la mer",
+        zone : "Lac salé de Karusa",
         numéro : 113,
-        element : "???"
+        element : "Terre:8-Givre:2"
     },
     {
     nom : "Roi à crinière",
@@ -1030,13 +1029,13 @@ const listFamiliers = [
     element : "Terre:8-Foudre:2"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Brontosaure chrysoptère",
+        attribut : "Volant",
+        type : "ATQ",
+        favori : "Ragout de la mer",
+        zone : "Mille-aiguilles",
         numéro : 115,
-        element : "???"
+        element : "Feu:1-Foudre:9"
     },
     {
         nom : "???",
@@ -1048,13 +1047,13 @@ const listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Tricéraptops",
+        attribut : "Dragon Terre",
+        type : "Gardien",
+        favori : "Ragout de la mer",
+        zone : "Mille-Aiguilles",
         numéro : 117,
-        element : "???"
+        element : "Foudre:3-Terre:7"
     },
     {
     nom : "T.Rex de Rochenoire",
@@ -1066,40 +1065,40 @@ const listFamiliers = [
     element : "Terre:8-Givre:2"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Dragon des montagnes",
+        attribut : "Dragon terre",
+        type : "Gardien",
+        favori : "Côtes de porc au barbecue",
+        zone : "Montagne de gros-caillou",
         numéro : 119,
-        element : "???"
+        element : "Foudre:4-Terre:6"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Dragon des montagnier géant",
+        attribut : "dragon terre",
+        type : "Gardien",
+        favori : "Côtes de porc au barbecue",
+        zone : "Montagne de Gros-caillou",
         numéro : 120,
-        element : "???"
+        element : "Foudre:4-Terre:6"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Radobaan",
+        attribut : "Dragon Terre",
+        type : "Gardien",
+        favori : "Roti de jarret",
+        zone : "Montagne de Gros-caillou",
         numéro : 121,
-        element : "???"
+        element : "Terre:8-Givre:2"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Dragon-Typhon",
+        attribut : "Volant",
+        type : "ATQ",
+        favori : "Curry de Crabe épicé",
+        zone : "Désert de Cora",
         numéro : 122,
-        element : "???"
+        element : "Terre:2-Givre:8"
     },
     {
     nom : "Dragon-tyran",
@@ -1121,85 +1120,85 @@ const listFamiliers = [
     },
     
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Pangolin en chef",
+        attribut : "Bête",
+        type : "Gardien",
+        favori : "Banquet de chef inégalé",
+        zone : "Désert de Cora",
         numéro : 125,
-        element : "???"
+        element : "Foudre:3-Terre:7"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Raptor Noir",
+        attribut : "Dragon terre",
+        type : "ATQ",
+        favori : "Curry de crabe épicé",
+        zone : "Oasis de Papeto",
         numéro : 126,
-        element : "???"
+        element : "Foudre:3-Terre:7"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Colibri argenté",
+        attribut : "Volant",
+        type : "Assistance",
+        favori : "Assiette de fruits et légumes",
+        zone : "Oasis de Papeto",
         numéro : 127,
-        element : "???"
+        element : "Terre:3-Givre:7"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Vargr Blanc",
+        attribut : "Bête",
+        type : "Assistance",
+        favori : "Délices de la mer de Shashimi",
+        zone : "Oasis de Papeto",
         numéro : 128,
-        element : "???"
+        element : "Terre:3-Givre:7"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Protodragon",
+        attribut : "Dragon terre",
+        type : "Gardien",
+        favori : "Curry de crabe épicé",
+        zone : "Oasis de Papeto",
         numéro : 129,
-        element : "???"
+        element : "Terre:10"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Dragon lion de Glace",
+        attribut : "Volant",
+        type : "ATQ",
+        favori : "Cuisine a se damner",
+        zone : "Lac salé des Gyséens",
         numéro : 130,
-        element : "???"
+        element : "Terre:2-Givre:8"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "oiseau cui-cui",
+        attribut : "Volant",
+        type : "Assistance",
+        favori : "Côtes de porc assaisonés aux truffes",
+        zone : "Montagne de Gros-caillou",
         numéro : 131,
-        element : "???"
+        element : "Foudre:2-Terre:8"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Ornithorynque",
+        attribut : "Aquatique",
+        type : "ATQ",
+        favori : "Cuisine à se damner",
+        zone : "Lac Salé des Gyséens",
         numéro : 132,
-        element : "???"
+        element : "Feu:8-Foudre:2"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Aiguille de mer",
+        attribut : "Dragon terre",
+        type : "Symbiose",
+        favori : "Délices de la mer de Shashimi",
+        zone : "Lac salé des Gyséens",
         numéro : 133,
-        element : "???"
+        element : "Terre:1-Givre:9"
     },
     {
     nom : "T.rex de foudre",
@@ -1257,13 +1256,13 @@ const listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
+        nom : "Oiseau dudu",
+        attribut : "Symbiose",
         type : "???",
-        favori : "???",
-        zone : "???",
+        favori : "cotelettes et truffes",
+        zone : "Montagne Boulder",
         numéro : 140,
-        element : "???"
+        element : "Terre:8-Foudre:2"
     },
     {
         nom : "???",
@@ -1275,13 +1274,13 @@ const listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Morse en chef",
+        attribut : "Aquatique",
+        type : "Gardien",
+        favori : "Cuisine à se damner",
+        zone : "Cote des chutes géantes",
         numéro : 142,
-        element : "???"
+        element : "Terre:1-Givre:9"
     },
     {
         nom : "???",
@@ -1302,13 +1301,13 @@ const listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Ecureuil volant de foudre",
+        attribut : "Volant",
+        type : "Assistance",
+        favori : "Délices de la mer en sashimi",
+        zone : "Lac salé des Gyséens",
         numéro : 145,
-        element : "???"
+        element : "Feu:3-Foudre:7"
     },
     {
         nom : "???",
@@ -1383,13 +1382,13 @@ const listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Loup roux alpha",
+        attribut : "Bête",
+        type : "Symbiose",
+        favori : "Cotes de porc assaisonnées aux truffes",
+        zone : "Désert de Cora",
         numéro : 154,
-        element : "???"
+        element : "Feu:9-Foudre:1"
     },
     {
         nom : "???",
@@ -1545,13 +1544,13 @@ const listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Petit Narval",
+        attribut : "Aquatique",
+        type : "Symbiose",
+        favori : "Coquille Saint-Jacques Rotie",
+        zone : "Côte des chutes géantes",
         numéro : 172,
-        element : "???"
+        element : "Terre:3-Givre:7"
     },
     {
         nom : "???",
@@ -1563,22 +1562,22 @@ const listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Lièvre de mer bleu",
+        attribut : "Aquatique",
+        type : "Assistance",
+        favori : "Oeuf à Vapeur et fruits de mer",
+        zone : "Côte des chutes géantes",
         numéro : 174,
-        element : "???"
+        element : "Terre:3-Givre:7"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Lièvre de mer blanc",
+        attribut : "Aquatique",
+        type : "Assistance",
+        favori : "Oeuf à Vapeur et fruits de mer",
+        zone : "Côte des chutes géantes",
         numéro : 175,
-        element : "???"
+        element : "Terre:3-Givre:7"
     },
     {
         nom : "???",
@@ -1635,42 +1634,43 @@ const listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Foudre",
+        attribut : "Volant",
+        type : "Assistance",
+        favori : "Aucun (avec une Dragon-Ball ou top 1 saison)",
+        zone : "Lac salé des Gyséens",
         numéro : 182,
-        element : "???"
+        element : "Foudre:8-Terre:2"
     },
     {
-        nom : "???",
-        attribut : "???",
+        nom : "Foudre",
+        attribut : "Volant",
         type : "???",
-        favori : "???",
-        zone : "???",
+        favori : "Aucun (avec une Dragon-Ball ou top 1 saison)",
+        zone : "Lac salé des Gyséens",
         numéro : 183,
-        element : "???"
+        element : "Foudre:8-Terre:2"
     },
     {
-        nom : "???",
-        attribut : "???",
+        nom : "Foudre",
+        attribut : "Volant",
         type : "???",
-        favori : "???",
-        zone : "???",
+        favori : "Aucun (avec une Dragon-Ball ou top 1 saison)",
+        zone : "Lac salé des Gyséens",
         numéro : 184,
-        element : "???"
+        element : "Foudre:8-Terre:2"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Foudre",
+        attribut : "Volant",
+        type : "Symbiose",
+        favori : "Aucun (avec une Dragon-Ball ou top 1 saison)",
+        zone : "Lac salé des Gyséens",
         numéro : 185,
-        element : "???"
+        element : "Foudre:8-Terre:2"
     },
 ]
+ 
 
 
 export default listFamiliers
