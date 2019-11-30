@@ -71,7 +71,7 @@ const   listFamiliers = [
         element : "Terre:6-Givre:4"
     },
     {
-        nom : "Grenouille nageoire",
+        nom : "???", //Grenouille nageoire
         attribut : "Symbiose",
         type : "",
         favori : "Ragoût de légumes sauvage",
@@ -252,7 +252,7 @@ const   listFamiliers = [
         element : "???"
     },
     {
-        nom : "Chouette Blanche",
+        nom : "???", //Chouette Blanche
         attribut : "Symbiose",
         type : "???",
         favori : "Potage aux légumes sauvages",
@@ -468,7 +468,7 @@ const   listFamiliers = [
     element : "Givre:7-Terre:3"
     },
     {
-    nom : "T.rec",
+    nom : "T.rex",
     attribut : "ATQ",
     type : "Dragon terre",
     favori : "Genereux plateau grille",
@@ -531,7 +531,7 @@ const   listFamiliers = [
     element : "Givre:7-Feu:3"
     },
     {
-    nom : "Préosaure",
+    nom : "Ptérosaure alpha",
     attribut : "Symbiose",
     type : "Volant",
     favori : "Oeuf au plat",
@@ -947,7 +947,7 @@ const   listFamiliers = [
     },
     
     {
-        nom : "Cerf à grande corne",
+        nom : "Élan irlandais",
         attribut : "Assistance",
         type : "Herbivore",
         favori : "Shanhai pot épicé",
@@ -1183,7 +1183,7 @@ const   listFamiliers = [
         element : "Foudre:2-Terre:8"
     },
     {
-        nom : "Ornithorynque",
+        nom : "Ornithorynque furieux",
         attribut : "Aquatique",
         type : "ATQ",
         favori : "Cuisine à se damner",
@@ -1201,7 +1201,7 @@ const   listFamiliers = [
         element : "Terre:1-Givre:9"
     },
     {
-    nom : "T.rex de foudre",
+    nom : "???", //T.rex de foudre
     attribut : "ATQ",
     type : "dragon terre",
     favori : "Assiette de viandes grillees",
@@ -1256,7 +1256,7 @@ const   listFamiliers = [
         element : "???"
     },
     {
-        nom : "Oiseau dudu",
+        nom : "???", //Oiseau dudu
         attribut : "Symbiose",
         type : "???",
         favori : "cotelettes et truffes",
@@ -1545,26 +1545,26 @@ const   listFamiliers = [
     },
     {
         nom : "Petit Narval",
-        attribut : "Aquatique",
-        type : "Symbiose",
+        attribut : "Symbiose",
+        type : "Aquatique",
         favori : "Coquille Saint-Jacques Rotie",
         zone : "Côte des chutes géantes",
         numéro : 172,
         element : "Terre:3-Givre:7"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Narval alpha de tonnerre",
+        attribut : "Symbiose",
+        type : "Aquatique",
+        favori : "oeuf à la vapeur et fruits de mer",
+        zone : "Mer de Rabo",
         numéro : 173,
-        element : "???"
+        element : "Foudre:8-Terre2"
     },
     {
         nom : "Lièvre de mer bleu",
-        attribut : "Aquatique",
-        type : "Assistance",
+        attribut : "Assistance",
+        type : "Aquatique",
         favori : "Oeuf à Vapeur et fruits de mer",
         zone : "Côte des chutes géantes",
         numéro : 174,
@@ -1572,8 +1572,8 @@ const   listFamiliers = [
     },
     {
         nom : "Lièvre de mer blanc",
-        attribut : "Aquatique",
-        type : "Assistance",
+        attribut : "Assistance",
+        type : "Aquatique",
         favori : "Oeuf à Vapeur et fruits de mer",
         zone : "Côte des chutes géantes",
         numéro : 175,
@@ -1589,13 +1589,13 @@ const   listFamiliers = [
         element : "???"
     },
     {
-        nom : "???",
-        attribut : "???",
-        type : "???",
-        favori : "???",
-        zone : "???",
+        nom : "Hippocampe des vases",
+        attribut : "Assistance",
+        type : "Aquatique",
+        favori : "Coquille saint jacques rotie",
+        zone : "Mer de Rabo",
         numéro : 177,
-        element : "???"
+        element : "Terre:7-Givre:3"
     },
     {
         nom : "???",
@@ -1634,7 +1634,7 @@ const   listFamiliers = [
         element : "???"
     },
     {
-        nom : "Foudre",
+        nom : "???", //Foudre Assistance
         attribut : "Volant",
         type : "Assistance",
         favori : "Aucun (avec une Dragon-Ball ou top 1 saison)",
@@ -1643,7 +1643,7 @@ const   listFamiliers = [
         element : "Foudre:8-Terre:2"
     },
     {
-        nom : "Foudre",
+        nom : "???",
         attribut : "Volant",
         type : "???",
         favori : "Aucun (avec une Dragon-Ball ou top 1 saison)",
@@ -1652,7 +1652,7 @@ const   listFamiliers = [
         element : "Foudre:8-Terre:2"
     },
     {
-        nom : "Foudre",
+        nom : "???",
         attribut : "Volant",
         type : "???",
         favori : "Aucun (avec une Dragon-Ball ou top 1 saison)",
@@ -1661,7 +1661,7 @@ const   listFamiliers = [
         element : "Foudre:8-Terre:2"
     },
     {
-        nom : "Foudre",
+        nom : "Foudre symbiose",
         attribut : "Volant",
         type : "Symbiose",
         favori : "Aucun (avec une Dragon-Ball ou top 1 saison)",
