@@ -35,7 +35,7 @@ export default function PetDetails(props) {
     <img 
     color="primary"
     block
-    src={require("../../assets/img/pet/"+props.pet.nom+"Logo.png")}
+    src={require('../../assets/img/pet/'+props.pet.nom+'Logo.png')}
     alt={props.pet.nom}
     onClick={() => setClassicModal(true)}
   />
@@ -71,7 +71,7 @@ export default function PetDetails(props) {
                     id="classic-modal-slide-description"
                     className={classes.modalBody}
                   >
-                      <img className="petDetails" src={require("../../assets/img/pet/"+ props.pet.nom +"Details.PNG")}  alt={props.pet.nom} />
+                      <img className="petDetails" src={require('../../assets/img/pet/'+ props.pet.nom + 'Details.PNG')}  alt={props.pet.nom} />
                     <p>
                      {props.pet.nom}
                     </p>
