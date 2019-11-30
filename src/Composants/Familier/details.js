@@ -29,14 +29,15 @@ export default function PetDetails(props) {
     const classes = useStyles();
 
     const [classicModal, setClassicModal] = React.useState(false);
+    const pet = props.pet
 
   return (
       <div>
     <img 
     color="primary"
     block
-    //src={require("../../assets/img/pet/" + `${props.pet.nom}` + "Logo.png")}
-    alt={props.pet.nom}
+    src={require("../../assets/img/pet/" + pet.nom + "Logo.png")}
+    alt={pet.nom}
     onClick={() => setClassicModal(true)}
   />
     <Dialog
@@ -73,7 +74,7 @@ export default function PetDetails(props) {
                   >
                       {/* <img className="petDetails" src={require("../../assets/img/pet/" + `${props.pet.nom}` + "Details.PNG")}  alt={props.pet.nom} /> */}
                     <p>
-                     {props.pet.nom}
+                     {pet.nom}
                     </p>
                   </DialogContent>
                 </Dialog>
