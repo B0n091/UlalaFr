@@ -6,7 +6,10 @@ const   listFamiliers = [
         zone : "Forêt tropicale de Sabada",
         numéro : 1,
         element : "Feu:6-Foudre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/MobelinLogo.png",
+        detail : "../../assets/img/pet/MobelinDetails.PNG",
+},
     {  
         nom : "Mobelin bleu",
         attribut : "Symbiose",
@@ -15,7 +18,10 @@ const   listFamiliers = [
         zone : "Forêt tropicale de Sabada",
         numéro : 2,
         element : "Givre:6-Terre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/Mobelin bleuLogo.png",
+        detail : "../../assets/img/pet/Mobelin bleuDetails.PNG",
+},
     {  
         nom : "Marmotte",
         attribut : "Assistance",
@@ -24,7 +30,10 @@ const   listFamiliers = [
         zone : "Forêt tropicale de Sabada",
         numéro : 3,
         element : "Terre:6-Foudre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/MarmotteLogo.png",
+        detail : "../../assets/img/pet/MarmotteDetails.PNG",
+},
     {  
         nom : "Marmotte de tonnerre",
         attribut : "Assistance",
@@ -33,7 +42,10 @@ const   listFamiliers = [
         zone : "Gorge de Chiwawa",
         numéro : 4,
         element : "Foudre:6-Feu:4"
-    },
+    ,
+        logo : "../../assets/img/pet/Marmotte de tonnerreLogo.png",
+        detail : "../../assets/img/pet/Marmotte de tonnerreDetails.PNG",
+},
     {  
         nom : "Marmotte de feu",
         attribut : "Assistance",
@@ -42,7 +54,10 @@ const   listFamiliers = [
         zone : "Forêt tropicale de Sabada",
         numéro : 5,
         element : "Feu:6-Foudre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/Marmotte de feuLogo.png",
+        detail : "../../assets/img/pet/Marmotte de feuDetails.PNG",
+},
     {  
         nom : "Marmotte enneigée",
         attribut : "Assistance",
@@ -51,7 +66,10 @@ const   listFamiliers = [
         zone : "Gorge de Chiwawa",
         numéro : 6,
         element : "Givre:6-Terre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/Marmotte enneigéeLogo.png",
+        detail : "../../assets/img/pet/Marmotte enneigéeDetails.PNG",
+},
     {  
         nom : "Smilodon",
         attribut : "ATQ",
@@ -60,7 +78,10 @@ const   listFamiliers = [
         zone : "Forêt tropicale de Sabada",
         numéro : 7,
         element : "Terre:6-Foudre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/SmilodonLogo.png",
+        detail : "../../assets/img/pet/SmilodonDetails.PNG",
+},
     {  
         nom : "Grenouille à ventre rond",
         attribut : "Symbiose",
@@ -69,7 +90,10 @@ const   listFamiliers = [
         zone : "Côte de Bababo",
         numéro : 8,
         element : "Terre:6-Givre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/Grenouille à ventre rondLogo.png",
+        detail : "../../assets/img/pet/Grenouille à ventre rondDetails.PNG",
+},
     {
         nom : "???", //Grenouille nageoire
         attribut : "Symbiose",
@@ -78,7 +102,10 @@ const   listFamiliers = [
         zone : "Côte Nord-est (continent de foudre",
         numéro : 9,
         element : "Eau:6-Feu:4"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {  
         nom : "Gorille-licorne",
         attribut : "Gardien",
@@ -87,7 +114,10 @@ const   listFamiliers = [
         zone : "Forêt tropicale de Sabada",
         numéro : 10,
         element : "Foudre:5-Terre:5"
-    },
+    ,
+        logo : "../../assets/img/pet/Gorille-licorneLogo.png",
+        detail : "../../assets/img/pet/Gorille-licorneDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -96,7 +126,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 11,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {  
         nom : "Lainergie",
         attribut : "Guardien",
@@ -105,7 +138,10 @@ const   listFamiliers = [
         zone : "Forêt tropicale de Sabada",
         numéro : 12,
         element : "Terre:6-Foudre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/LainergieLogo.png",
+        detail : "../../assets/img/pet/LainergieDetails.PNG",
+},
     {  
         nom : "Lainergie à cornes spiralées",
         attribut : "Guardien",
@@ -114,7 +150,10 @@ const   listFamiliers = [
         zone : "Glacier de Pucketa",
         numéro : 13,
         element : "Terre:4-Givre:6"
-    },
+    ,
+        logo : "../../assets/img/pet/Lainergie à cornes spiraléesLogo.png",
+        detail : "../../assets/img/pet/Lainergie à cornes spiraléesDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -123,7 +162,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 14,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -132,7 +174,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 15,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {  
         nom : "Ornithorynque",
         attribut : "Symbiose",
@@ -141,7 +186,10 @@ const   listFamiliers = [
         zone : "Forêt tropicale de Sabada",
         numéro : 16,
         element : "Terre:5-Givre:5"
-    },
+    ,
+        logo : "../../assets/img/pet/OrnithorynqueLogo.png",
+        detail : "../../assets/img/pet/OrnithorynqueDetails.PNG",
+},
     {  
         nom : "Raptor",
         attribut : "ATQ",
@@ -150,7 +198,10 @@ const   listFamiliers = [
         zone : "Cote de Cobo",
         numéro : 17,
         element : "Feu:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/RaptorLogo.png",
+        detail : "../../assets/img/pet/RaptorDetails.PNG",
+},
     {
         nom : "Pissenlit",
         attribut : "Assistance",
@@ -159,7 +210,10 @@ const   listFamiliers = [
         zone : "mille-Aiguilles",
         numéro : 18,
         element : "Foudre:5-Terre:5"
-    },
+    ,
+        logo : "../../assets/img/pet/PissenlitLogo.png",
+        detail : "../../assets/img/pet/PissenlitDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -168,7 +222,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 19,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {  
         nom : "Ratel",
         attribut : "ATQ",
@@ -177,7 +234,10 @@ const   listFamiliers = [
         zone : "Forêt tropicale de Sabada",
         numéro : 20,
         element : "Foudre:5-Terre:5"
-    },
+    ,
+        logo : "../../assets/img/pet/RatelLogo.png",
+        detail : "../../assets/img/pet/RatelDetails.PNG",
+},
     
     {
         nom : "???",
@@ -187,7 +247,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 21,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {  
         nom : "Prérosaure agile",
         attribut : "ATQ",
@@ -196,7 +259,10 @@ const   listFamiliers = [
         zone : "Forêt tropicale de Sabada",
         numéro : 22,
         element : "Givre:6-Terre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/Prérosaure agileLogo.png",
+        detail : "../../assets/img/pet/Prérosaure agileDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -205,7 +271,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 23,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "Pangolin",
         attribut : "Gardien",
@@ -214,7 +283,10 @@ const   listFamiliers = [
         zone : "Mille Aiguilles",
         numéro : 24,
         element : "Terre:6-Foudre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/PangolinLogo.png",
+        detail : "../../assets/img/pet/PangolinDetails.PNG",
+},
     {  
         nom : "Mobelin noir",
         attribut : "Symbiose",
@@ -223,7 +295,10 @@ const   listFamiliers = [
         zone : "Gorge de Chiwawa",
         numéro : 25,
         element : "Terre:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Mobelin noirLogo.png",
+        detail : "../../assets/img/pet/Mobelin noirDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -232,7 +307,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 26,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {  
         nom : "Dragon acaudal",
         attribut : "Guardien",
@@ -241,7 +319,10 @@ const   listFamiliers = [
         zone : "Gorge de chiwawa",
         numéro : 27,
         element : "Feu:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon acaudalLogo.png",
+        detail : "../../assets/img/pet/Dragon acaudalDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -250,7 +331,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 28,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???", //Chouette Blanche
         attribut : "Symbiose",
@@ -259,7 +343,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 29,
         element : "Givre:6-Terre:4"
-     },
+     ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "Eperon",
         attribut : "ATQ",
@@ -268,7 +355,10 @@ const   listFamiliers = [
         zone : "Met de Rabo",
         numéro : 30,
         element : "Terre:6-Givre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/EperonLogo.png",
+        detail : "../../assets/img/pet/EperonDetails.PNG",
+},
     {  
         nom : "Brontosaure",
         attribut : "ATQ",
@@ -277,7 +367,10 @@ const   listFamiliers = [
         zone : "Desert de Bata",
         numéro : 31,
         element : "Foudre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/BrontosaureLogo.png",
+        detail : "../../assets/img/pet/BrontosaureDetails.PNG",
+},
     {  
         nom : "Tricératops de tonnerre",
         attribut : "Guardien",
@@ -286,7 +379,10 @@ const   listFamiliers = [
         zone : "Forêt tropicale de Sabada",
         numéro : 32,
         element : "Foudre:7-Feu:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Tricératops de tonnerreLogo.png",
+        detail : "../../assets/img/pet/Tricératops de tonnerreDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -295,7 +391,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 33,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "Dragon couronne de roche",
         attribut : "Symbiose",
@@ -304,7 +403,10 @@ const   listFamiliers = [
         zone : "Désert de Cora",
         numéro : 34,
         element : "Foudre:4-Terre:6"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon couronne de rocheLogo.png",
+        detail : "../../assets/img/pet/Dragon couronne de rocheDetails.PNG",
+},
     {  
         nom : "Chameau",
         attribut : "Assistance",
@@ -313,7 +415,10 @@ const   listFamiliers = [
         zone : "Desert de Bata",
         numéro : 35,
         element : "Terre:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/ChameauLogo.png",
+        detail : "../../assets/img/pet/ChameauDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -322,7 +427,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 36,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {  
         nom : "Morse",
         attribut : "Symbiose",
@@ -331,7 +439,10 @@ const   listFamiliers = [
         zone : "Cote de Bababo",
         numéro : 37,
         element : "Givre:6-Terre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/MorseLogo.png",
+        detail : "../../assets/img/pet/MorseDetails.PNG",
+},
     {  
         nom : "Poisson-globe",
         attribut : "Symbiose",
@@ -340,7 +451,10 @@ const   listFamiliers = [
         zone : "Cote de Bababo",
         numéro : 38,
         element : "Terre:7-Givre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Poisson-globeLogo.png",
+        detail : "../../assets/img/pet/Poisson-globeDetails.PNG",
+},
     {  
         nom : "Tortue",
         attribut : "Guardien",
@@ -349,7 +463,10 @@ const   listFamiliers = [
         zone : "Cote de bababo",
         numéro : 39,
         element : "Terre:5-Givre:5"
-    },
+    ,
+        logo : "../../assets/img/pet/TortueLogo.png",
+        detail : "../../assets/img/pet/TortueDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -358,7 +475,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 40,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {  
         nom : "Rapasdepic poilu",
         attribut : "ATQ",
@@ -367,7 +487,10 @@ const   listFamiliers = [
         zone : "Cote de Bababo",
         numéro : 41,
         element : "Givre:6-Terre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/Rapasdepic poiluLogo.png",
+        detail : "../../assets/img/pet/Rapasdepic poiluDetails.PNG",
+},
     {  
         nom : "Alcidé",
         attribut : "Assistance",
@@ -376,7 +499,10 @@ const   listFamiliers = [
         zone : "Fjord de Horu",
         numéro : 42,
         element : "Givre:6-Terre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/AlcidéLogo.png",
+        detail : "../../assets/img/pet/AlcidéDetails.PNG",
+},
     {
     nom : "Tigre blanc",
     attribut : "ATQ",
@@ -385,7 +511,10 @@ const   listFamiliers = [
     zone : "Volcan Jujule",
     numéro : 43,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Tigre blancLogo.png",
+        detail : "../../assets/img/pet/Tigre blancDetails.PNG",
+},
     {
     nom : "Grenouille ronde de flammes",
     attribut : "Symbiose",
@@ -394,7 +523,10 @@ const   listFamiliers = [
     zone : "Volcan Jujule",
     numéro : 44,
     element : "Feu:7-Givre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Grenouille ronde de flammesLogo.png",
+        detail : "../../assets/img/pet/Grenouille ronde de flammesDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -403,7 +535,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 45,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
     nom : "Ankylosaure osseux",
     attribut : "Guardien",
@@ -412,7 +547,10 @@ const   listFamiliers = [
     zone : "Volcan Jujule",
     numéro : 46,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Ankylosaure osseuxLogo.png",
+        detail : "../../assets/img/pet/Ankylosaure osseuxDetails.PNG",
+},
     {
     nom : "Bete de lave en chef",
     attribut : "Guardien",
@@ -421,7 +559,10 @@ const   listFamiliers = [
     zone : "Volcan Jujule",
     numéro : 47,
     element : "Feu:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Bete de lave en chefLogo.png",
+        detail : "../../assets/img/pet/Bete de lave en chefDetails.PNG",
+},
     {
     nom : "Écureuil volant",
     attribut : "Assistance",
@@ -430,7 +571,10 @@ const   listFamiliers = [
     zone : "Volcan Jujule",
     numéro : 48,
     element : "Terre:6-Foudre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/Écureuil volantLogo.png",
+        detail : "../../assets/img/pet/Écureuil volantDetails.PNG",
+},
     {
     nom : "Marmotte céleste",
     attribut : "Assistance",
@@ -439,7 +583,10 @@ const   listFamiliers = [
     zone : "Foret tropical de sinbad",
     numéro : 49,
     element : "Terre:7-Givre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Marmotte célesteLogo.png",
+        detail : "../../assets/img/pet/Marmotte célesteDetails.PNG",
+},
     {
     nom : "Marmotte coup-de-foudre",
     attribut : "Assistance",
@@ -448,7 +595,10 @@ const   listFamiliers = [
     zone : "Forte tropicale de sinbad",
     numéro : 50,
     element : "Foudre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Marmotte coup-de-foudreLogo.png",
+        detail : "../../assets/img/pet/Marmotte coup-de-foudreDetails.PNG",
+},
     {
     nom : "Marmotte volante de feu",
     attribut : "Assistance",
@@ -457,7 +607,10 @@ const   listFamiliers = [
     zone : "Foret tropicale de sinbad",
     numéro : 51,
     element : "Feu:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Marmotte volante de feuLogo.png",
+        detail : "../../assets/img/pet/Marmotte volante de feuDetails.PNG",
+},
     {
     nom : "Marmotte volante de givre",
     attribut : "Assistance",
@@ -466,7 +619,10 @@ const   listFamiliers = [
     zone : "Foret tropicale de sinbad",
     numéro : 52,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Marmotte volante de givreLogo.png",
+        detail : "../../assets/img/pet/Marmotte volante de givreDetails.PNG",
+},
     {
     nom : "T.rex",
     attribut : "ATQ",
@@ -475,7 +631,10 @@ const   listFamiliers = [
     zone : "Foret tropicale de Sabada",
     numéro : 53,
     element : "Feu:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/T.rexLogo.png",
+        detail : "../../assets/img/pet/T.rexDetails.PNG",
+},
     {
     nom : "Smilodon alpha",
     attribut : "ATQ",
@@ -484,7 +643,10 @@ const   listFamiliers = [
     zone : "Plaine de toto",
     numéro : 54,
     element : "Terre:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Smilodon alphaLogo.png",
+        detail : "../../assets/img/pet/Smilodon alphaDetails.PNG",
+},
     {
     nom : "Gorille-licorne en chef",
     attribut : "Symbiose",
@@ -493,7 +655,10 @@ const   listFamiliers = [
     zone : "Plaines de toto",
     numéro : 55,
     element : "Givre:8-Feu:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Gorille-licorne en chefLogo.png",
+        detail : "../../assets/img/pet/Gorille-licorne en chefDetails.PNG",
+},
     {
     nom : "Yak blanc",
     attribut : "Symbiose",
@@ -502,7 +667,10 @@ const   listFamiliers = [
     zone : "Plaines de toto",
     numéro : 56,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Yak blancLogo.png",
+        detail : "../../assets/img/pet/Yak blancDetails.PNG",
+},
     {
     nom : "Ours brun et roux",
     attribut : "Symbiose",
@@ -511,7 +679,10 @@ const   listFamiliers = [
     zone : "Plaines de toto",
     numéro : 57,
     element : "Feu:7-Givre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Ours brun et rouxLogo.png",
+        detail : "../../assets/img/pet/Ours brun et rouxDetails.PNG",
+},
     {
     nom : "Stégosaure",
     attribut : "Guardien",
@@ -520,7 +691,10 @@ const   listFamiliers = [
     zone : "cote de cobo",
     numéro : 58,
     element : "Terre:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/StégosaureLogo.png",
+        detail : "../../assets/img/pet/StégosaureDetails.PNG",
+},
     {
     nom : "Raptor blanc",
     attribut : "ATQ",
@@ -529,7 +703,10 @@ const   listFamiliers = [
     zone : "Foret tropicale de Sabada",
     numéro : 59,
     element : "Givre:7-Feu:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Raptor blancLogo.png",
+        detail : "../../assets/img/pet/Raptor blancDetails.PNG",
+},
     {
     nom : "Ptérosaure alpha",
     attribut : "Symbiose",
@@ -538,7 +715,10 @@ const   listFamiliers = [
     zone : "Cote de cobo",
     numéro : 60,
     element : "Feu:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Ptérosaure alphaLogo.png",
+        detail : "../../assets/img/pet/Ptérosaure alphaDetails.PNG",
+},
     {
     nom : "Tortue géante",
     attribut : "Guardien",
@@ -547,7 +727,10 @@ const   listFamiliers = [
     zone : "Cote de cobo",
     numéro : 61,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Tortue géanteLogo.png",
+        detail : "../../assets/img/pet/Tortue géanteDetails.PNG",
+},
     {
     nom : "Ankylosaure de feu",
     attribut : "Guardien",
@@ -556,7 +739,10 @@ const   listFamiliers = [
     zone : "Fjord de hori",
     numéro : 62,
     element : "Feu:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Ankylosaure de feuLogo.png",
+        detail : "../../assets/img/pet/Ankylosaure de feuDetails.PNG",
+},
     {
     nom : "Kingura",
     attribut : "Guardien",
@@ -565,7 +751,10 @@ const   listFamiliers = [
     zone : "Fjord de hori",
     numéro : 63,
     element : "Givre:6-Terre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/KinguraLogo.png",
+        detail : "../../assets/img/pet/KinguraDetails.PNG",
+},
     {
     nom : "Crabe de roche",
     attribut : "Guardien",
@@ -574,7 +763,10 @@ const   listFamiliers = [
     zone : "Fjord de Hori",
     numéro : 64,
     element : "Terre:7-Givre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Crabe de rocheLogo.png",
+        detail : "../../assets/img/pet/Crabe de rocheDetails.PNG",
+},
     {
     nom : "Rhinocéros à lame en chef",
     attribut : "Symbiose",
@@ -583,7 +775,10 @@ const   listFamiliers = [
     zone : "Fjord de Hori",
     numéro : 65,
     element : "Foudre:8-Feu:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Rhinocéros à lame en chefLogo.png",
+        detail : "../../assets/img/pet/Rhinocéros à lame en chefDetails.PNG",
+},
     {
     nom : "Stégosaure de lave",
     attribut : "Guardien",
@@ -592,7 +787,10 @@ const   listFamiliers = [
     zone : "Grotte de glace de tintin",
     numéro : 66,
     element : "Feu:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Stégosaure de laveLogo.png",
+        detail : "../../assets/img/pet/Stégosaure de laveDetails.PNG",
+},
     {
     nom : "Dragon d'Éole",
     attribut : "ATQ",
@@ -601,7 +799,10 @@ const   listFamiliers = [
     zone : "Grotte de glace de tintin",
     numéro : 67,
     element : "Terre:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon d'ÉoleLogo.png",
+        detail : "../../assets/img/pet/Dragon d'ÉoleDetails.PNG",
+},
     {
     nom : "Vélociraptor polaire",
     attribut : "Assistance",
@@ -610,7 +811,10 @@ const   listFamiliers = [
     zone : "Grotte de glace de tintin",
     numéro : 68,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Vélociraptor polaireLogo.png",
+        detail : "../../assets/img/pet/Vélociraptor polaireDetails.PNG",
+},
     {
     nom : "Corythosaure",
     attribut : "Symbiose",
@@ -619,7 +823,10 @@ const   listFamiliers = [
     zone : "Grotte de glace de tintin",
     numéro : 69,
     element : "Givre:6-Terre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/CorythosaureLogo.png",
+        detail : "../../assets/img/pet/CorythosaureDetails.PNG",
+},
     {
     nom : "Dodo des plaine enneigées",
     attribut : "ATQ",
@@ -628,7 +835,10 @@ const   listFamiliers = [
     zone : "Terre enneigees de tovana",
     numéro : 70,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Dodo des plaine enneigéesLogo.png",
+        detail : "../../assets/img/pet/Dodo des plaine enneigéesDetails.PNG",
+},
     {
     nom : "Yak blanc alpha",
     attribut : "Symbiose",
@@ -637,7 +847,10 @@ const   listFamiliers = [
     zone : "Terres enneigees de tovana",
     numéro : 71,
     element : "Givre:8-Terre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Yak blanc alphaLogo.png",
+        detail : "../../assets/img/pet/Yak blanc alphaDetails.PNG",
+},
     {
     nom : "Ours polaire en chef",
     attribut : "Guardien",
@@ -646,7 +859,10 @@ const   listFamiliers = [
     zone : "Terre enneigees de tovana",
     numéro : 72,
     element : "Givre:8-Terre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Ours polaire en chefLogo.png",
+        detail : "../../assets/img/pet/Ours polaire en chefDetails.PNG",
+},
     {
     nom : "Rhinocéros à lame",
     attribut : "Symbiose",
@@ -655,7 +871,10 @@ const   listFamiliers = [
     zone : "Terre enneigees de tovana",
     numéro : 73,
     element : "Foudre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Rhinocéros à lameLogo.png",
+        detail : "../../assets/img/pet/Rhinocéros à lameDetails.PNG",
+},
     {
     nom : "Tétraodon polaire",
     attribut : "Symbiose",
@@ -664,7 +883,10 @@ const   listFamiliers = [
     zone : "Glacier de puck",
     numéro : 74,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Tétraodon polaireLogo.png",
+        detail : "../../assets/img/pet/Tétraodon polaireDetails.PNG",
+},
     {
     nom : "Vargr alpha",
     attribut : "ATQ",
@@ -673,7 +895,10 @@ const   listFamiliers = [
     zone : "Glacier de puck",
     numéro : 75,
     element : "Terre:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Vargr alphaLogo.png",
+        detail : "../../assets/img/pet/Vargr alphaDetails.PNG",
+},
     {
     nom : "Lézard à collerette",
     attribut : "Assistance",
@@ -682,7 +907,10 @@ const   listFamiliers = [
     zone : "Glacier de puck",
     numéro : 76,
     element : "Givre:6-Terre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/Lézard à colleretteLogo.png",
+        detail : "../../assets/img/pet/Lézard à colleretteDetails.PNG",
+},
     {
     nom : "Lezard à collerette en chef",
     attribut : "ATQ",
@@ -691,7 +919,10 @@ const   listFamiliers = [
     zone : "Glacier de puck",
     numéro : 77,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Lezard à collerette en chefLogo.png",
+        detail : "../../assets/img/pet/Lezard à collerette en chefDetails.PNG",
+},
     {
     nom : "Mobelin rouge en chef",
     attribut : "Symbiose",
@@ -700,7 +931,10 @@ const   listFamiliers = [
     zone : "Montagne enneigee de dodori",
     numéro : 78,
     element : "Feu:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Mobelin rouge en chefLogo.png",
+        detail : "../../assets/img/pet/Mobelin rouge en chefDetails.PNG",
+},
     {
     nom : "Loup blanc alpha",
     attribut : "ATQ",
@@ -709,7 +943,10 @@ const   listFamiliers = [
     zone : "Montagne enneigee de dodori",
     numéro : 79,
     element : "GivrE:8-Feu:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Loup blanc alphaLogo.png",
+        detail : "../../assets/img/pet/Loup blanc alphaDetails.PNG",
+},
     {
     nom : "Renard polaire",
     attribut : "Assistance",
@@ -718,7 +955,10 @@ const   listFamiliers = [
     zone : "Montagne enneigee de dodori",
     numéro : 80,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Renard polaireLogo.png",
+        detail : "../../assets/img/pet/Renard polaireDetails.PNG",
+},
     {
     nom : "Ours brun",
     attribut : "Symbiose",
@@ -727,7 +967,10 @@ const   listFamiliers = [
     zone : "Montagne enneigee de dodori",
     numéro : 81,
     element : "Terre:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Ours brunLogo.png",
+        detail : "../../assets/img/pet/Ours brunDetails.PNG",
+},
     {
     nom : "Dodo",
     attribut : "ATQ",
@@ -736,7 +979,10 @@ const   listFamiliers = [
     zone : "Bois de sinvasa",
     numéro : 82,
     element : "Feu:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/DodoLogo.png",
+        detail : "../../assets/img/pet/DodoDetails.PNG",
+},
     {
     nom : "Dragon reine",
     attribut : "ATQ",
@@ -745,7 +991,10 @@ const   listFamiliers = [
     zone : "Bois de sinvasa",
     numéro : 83,
     element : "Givre:10"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon reineLogo.png",
+        detail : "../../assets/img/pet/Dragon reineDetails.PNG",
+},
     {
     nom : "Ours polaire",
     attribut : "Symbiose",
@@ -754,7 +1003,10 @@ const   listFamiliers = [
     zone : "Bois de sinvasa",
     numéro : 84,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Ours polaireLogo.png",
+        detail : "../../assets/img/pet/Ours polaireDetails.PNG",
+},
     {
     nom : "Araignée timide",
     attribut : "Assistance",
@@ -763,7 +1015,10 @@ const   listFamiliers = [
     zone : "Bois de sinvasa",
     numéro : 85,
     element : "Foudre:7-Feu:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Araignée timideLogo.png",
+        detail : "../../assets/img/pet/Araignée timideDetails.PNG",
+},
     {
     nom : "Mammouth",
     attribut : "Symbiose",
@@ -772,7 +1027,10 @@ const   listFamiliers = [
     zone : "Fjord de horu",
     numéro : 86,
     element : "Terre:9-Givre:1"
-    },
+    ,
+        logo : "../../assets/img/pet/MammouthLogo.png",
+        detail : "../../assets/img/pet/MammouthDetails.PNG",
+},
     {
     nom : "Demétrodon",
     attribut : "Symbiose",
@@ -781,7 +1039,10 @@ const   listFamiliers = [
     zone : "Fjord de horu",
     numéro : 87,
     element : "Terre:7-Givre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/DemétrodonLogo.png",
+        detail : "../../assets/img/pet/DemétrodonDetails.PNG",
+},
     {
     nom : "Dimétrodon de foudre",
     attribut : "Symbiose",
@@ -790,7 +1051,10 @@ const   listFamiliers = [
     zone : "Fjord de horu",
     numéro : 88,
     element : "Foudre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Dimétrodon de foudreLogo.png",
+        detail : "../../assets/img/pet/Dimétrodon de foudreDetails.PNG",
+},
     
     {
         nom : "Poisson Bouclier",
@@ -800,7 +1064,10 @@ const   listFamiliers = [
         zone : "La cascade",
         numéro : 89,
         element : "Foudre:8-Terre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Poisson BouclierLogo.png",
+        detail : "../../assets/img/pet/Poisson BouclierDetails.PNG",
+},
     {
     nom : "Brontosaure argyroptère",
     attribut : "ATQ",
@@ -809,7 +1076,10 @@ const   listFamiliers = [
     zone : "Glacier de Pucketa",
     numéro : 90,
     element : "Foudre:8-Feu:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Brontosaure argyroptèreLogo.png",
+        detail : "../../assets/img/pet/Brontosaure argyroptèreDetails.PNG",
+},
     {
     nom : "Dragon de Rochenoire",
     attribut : "Gardien",
@@ -818,7 +1088,10 @@ const   listFamiliers = [
     zone : "Désert de bata",
     numéro : 91,
     element : "Terre:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon de RochenoireLogo.png",
+        detail : "../../assets/img/pet/Dragon de RochenoireDetails.PNG",
+},
     {
     nom : "Dragon acaudal de lumière pâle",
     attribut : "Gardien",
@@ -827,7 +1100,10 @@ const   listFamiliers = [
     zone : "Glacier de pucketa",
     numéro : 92,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon acaudal de lumière pâleLogo.png",
+        detail : "../../assets/img/pet/Dragon acaudal de lumière pâleDetails.PNG",
+},
     {
     nom : "Ours noir",
     attribut : "Symbiose",
@@ -836,7 +1112,10 @@ const   listFamiliers = [
     zone : "Glacier de pucketa",
     numéro : 93,
     element : "Foudre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Ours noirLogo.png",
+        detail : "../../assets/img/pet/Ours noirDetails.PNG",
+},
     {
     nom : "tigre blanc alpha",
     attribut : "ATQ",
@@ -845,7 +1124,10 @@ const   listFamiliers = [
     zone : "Bois de warry",
     numéro : 94,
     element : "Givre:8-Terre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/tigre blanc alphaLogo.png",
+        detail : "../../assets/img/pet/tigre blanc alphaDetails.PNG",
+},
     {
     nom : "Ankylosaure",
     attribut : "Gardien",
@@ -854,7 +1136,10 @@ const   listFamiliers = [
     zone : "Bois de warry",
     numéro : 95,
     element : "Terre:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/AnkylosaureLogo.png",
+        detail : "../../assets/img/pet/AnkylosaureDetails.PNG",
+},
     {
     nom : "Rhicocéros",
     attribut : "Symbiose",
@@ -863,7 +1148,10 @@ const   listFamiliers = [
     zone : "Bois de warry",
     numéro : 96,
     element : "Givre:6-Terre:4"
-    },
+    ,
+        logo : "../../assets/img/pet/RhicocérosLogo.png",
+        detail : "../../assets/img/pet/RhicocérosDetails.PNG",
+},
     {
     nom : "Renard de foudre",
     attribut : "Assistance",
@@ -872,7 +1160,10 @@ const   listFamiliers = [
     zone : "Foret tropicale de sabada",
     numéro : 97,
     element : "Foudre:8-Feu:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Renard de foudreLogo.png",
+        detail : "../../assets/img/pet/Renard de foudreDetails.PNG",
+},
     {
     nom : "Tuk-tuk de feu",
     attribut : "Assistance",
@@ -881,7 +1172,10 @@ const   listFamiliers = [
     zone : "Cote de totori",
     numéro : 98,
     element : "Feu:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Tuk-tuk de feuLogo.png",
+        detail : "../../assets/img/pet/Tuk-tuk de feuDetails.PNG",
+},
     {
     nom : "Strique cristatelle",
     attribut : "Assistance",
@@ -890,7 +1184,10 @@ const   listFamiliers = [
     zone : "Cote de totori",
     numéro : 99,
     element : "Foudre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Strique cristatelleLogo.png",
+        detail : "../../assets/img/pet/Strique cristatelleDetails.PNG",
+},
     {
     nom : "Moa géant",
     attribut : "Assistance",
@@ -899,7 +1196,10 @@ const   listFamiliers = [
     zone : "Cote de totori",
     numéro : 100,
     element : "Feu:9-Givre:1"
-    },
+    ,
+        logo : "../../assets/img/pet/Moa géantLogo.png",
+        detail : "../../assets/img/pet/Moa géantDetails.PNG",
+},
     {
     nom : "Placoderme de Clace",
     attribut : "Gardien",
@@ -908,7 +1208,10 @@ const   listFamiliers = [
     zone : "Côte de totori",
     numéro : 101,
     element : "Givre:8-Feu:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Placoderme de ClaceLogo.png",
+        detail : "../../assets/img/pet/Placoderme de ClaceDetails.PNG",
+},
     {
     nom : "Dragon de lunevent",
     attribut : "Assistance",
@@ -917,7 +1220,10 @@ const   listFamiliers = [
     zone : "Désert de Girka",
     numéro : 102,
     element : "Givre:9-Feu:1"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon de luneventLogo.png",
+        detail : "../../assets/img/pet/Dragon de luneventDetails.PNG",
+},
     {
     nom : "Renard du desert",
     attribut : "Assistance",
@@ -926,7 +1232,10 @@ const   listFamiliers = [
     zone : "Desert de girka",
     numéro : 103,
     element : "Terre:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Renard du desertLogo.png",
+        detail : "../../assets/img/pet/Renard du desertDetails.PNG",
+},
     {
     nom : "Lézard à collerette en chef",
     attribut : "ATQ",
@@ -935,7 +1244,10 @@ const   listFamiliers = [
     zone : "Deset de girka",
     numéro : 104,
     element : "Terre:7-Foure:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Lézard à collerette en chefLogo.png",
+        detail : "../../assets/img/pet/Lézard à collerette en chefDetails.PNG",
+},
     {
     nom : "Lézard à collerette solaire",
     attribut : "Assistance",
@@ -944,7 +1256,10 @@ const   listFamiliers = [
     zone : "Deset de girka",
     numéro : 105,
     element : "Feu:7-Foudre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Lézard à collerette solaireLogo.png",
+        detail : "../../assets/img/pet/Lézard à collerette solaireDetails.PNG",
+},
     
     {
         nom : "Élan irlandais",
@@ -954,7 +1269,10 @@ const   listFamiliers = [
         zone : "Oasis de Palu",
         numéro : 106,
         element : "Terre:9-Foudre:1"
-    },
+    ,
+        logo : "../../assets/img/pet/Élan irlandaisLogo.png",
+        detail : "../../assets/img/pet/Élan irlandaisDetails.PNG",
+},
     {
     nom : "Chameau blanc",
     attribut : "Assistance",
@@ -963,7 +1281,10 @@ const   listFamiliers = [
     zone : "Oasis de Paro",
     numéro : 107,
     element : "Givre:8-Terre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Chameau blancLogo.png",
+        detail : "../../assets/img/pet/Chameau blancDetails.PNG",
+},
     {
     nom : "Pélican",
     attribut : "Symbiose",
@@ -972,7 +1293,10 @@ const   listFamiliers = [
     zone : "Givre:7-Terre:3",
     numéro : 108,
     element : "Givre:7-Terre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/PélicanLogo.png",
+        detail : "../../assets/img/pet/PélicanDetails.PNG",
+},
     
     {
         nom : "Bernard-l’ermite",
@@ -982,7 +1306,10 @@ const   listFamiliers = [
         zone : "Oasis de Paro",
         numéro : 109,
         element : "Terre:8-Givre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Bernard-l’ermiteLogo.png",
+        detail : "../../assets/img/pet/Bernard-l’ermiteDetails.PNG",
+},
     {
         nom : "Coup de Foudre",
         attribut : "Gardien",
@@ -991,7 +1318,10 @@ const   listFamiliers = [
         zone : "Lac salé de Karusa",
         numéro : 110,
         element : "Foudre:9-Feu:1"
-    },
+    ,
+        logo : "../../assets/img/pet/Coup de FoudreLogo.png",
+        detail : "../../assets/img/pet/Coup de FoudreDetails.PNG",
+},
     {
         nom : "Yack Alpha",
         attribut : "Herbivore",
@@ -1000,7 +1330,10 @@ const   listFamiliers = [
         zone : "Lac salé de Karusa",
         numéro : 111,
         element : "Foudre:3-Terre:7"
-    },
+    ,
+        logo : "../../assets/img/pet/Yack AlphaLogo.png",
+        detail : "../../assets/img/pet/Yack AlphaDetails.PNG",
+},
     {
         nom : "Gerboise d’eau",
         attribut : "Herbivore",
@@ -1009,7 +1342,10 @@ const   listFamiliers = [
         zone : "Lac Salé de Karusa",
         numéro : 112,
         element : "Foudre:3-Terre:7"
-    },
+    ,
+        logo : "../../assets/img/pet/Gerboise d’eauLogo.png",
+        detail : "../../assets/img/pet/Gerboise d’eauDetails.PNG",
+},
     {
         nom : "Placoderme de roche",
         attribut : "Aquatique",
@@ -1018,7 +1354,10 @@ const   listFamiliers = [
         zone : "Lac salé de Karusa",
         numéro : 113,
         element : "Terre:8-Givre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Placoderme de rocheLogo.png",
+        detail : "../../assets/img/pet/Placoderme de rocheDetails.PNG",
+},
     {
     nom : "Roi à crinière",
     attribut : "Symbiose",
@@ -1027,7 +1366,10 @@ const   listFamiliers = [
     zone : "Foret tropicale de Sabada",
     numéro : 114,
     element : "Terre:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Roi à crinièreLogo.png",
+        detail : "../../assets/img/pet/Roi à crinièreDetails.PNG",
+},
     {
         nom : "Brontosaure chrysoptère",
         attribut : "Volant",
@@ -1036,7 +1378,10 @@ const   listFamiliers = [
         zone : "Mille-aiguilles",
         numéro : 115,
         element : "Feu:1-Foudre:9"
-    },
+    ,
+        logo : "../../assets/img/pet/Brontosaure chrysoptèreLogo.png",
+        detail : "../../assets/img/pet/Brontosaure chrysoptèreDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1045,7 +1390,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 116,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "Tricéraptops",
         attribut : "Dragon Terre",
@@ -1054,7 +1402,10 @@ const   listFamiliers = [
         zone : "Mille-Aiguilles",
         numéro : 117,
         element : "Foudre:3-Terre:7"
-    },
+    ,
+        logo : "../../assets/img/pet/TricéraptopsLogo.png",
+        detail : "../../assets/img/pet/TricéraptopsDetails.PNG",
+},
     {
     nom : "T.Rex de Rochenoire",
     attribut : "ATQ",
@@ -1063,7 +1414,10 @@ const   listFamiliers = [
     zone : "Gorge de chiwawa",
     numéro : 118,
     element : "Terre:8-Givre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/T.Rex de RochenoireLogo.png",
+        detail : "../../assets/img/pet/T.Rex de RochenoireDetails.PNG",
+},
     {
         nom : "Dragon des montagnes",
         attribut : "Dragon terre",
@@ -1072,7 +1426,10 @@ const   listFamiliers = [
         zone : "Montagne de gros-caillou",
         numéro : 119,
         element : "Foudre:4-Terre:6"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon des montagnesLogo.png",
+        detail : "../../assets/img/pet/Dragon des montagnesDetails.PNG",
+},
     {
         nom : "Dragon des montagnier géant",
         attribut : "dragon terre",
@@ -1081,7 +1438,10 @@ const   listFamiliers = [
         zone : "Montagne de Gros-caillou",
         numéro : 120,
         element : "Foudre:4-Terre:6"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon des montagnier géantLogo.png",
+        detail : "../../assets/img/pet/Dragon des montagnier géantDetails.PNG",
+},
     {
         nom : "Radobaan",
         attribut : "Dragon Terre",
@@ -1090,7 +1450,10 @@ const   listFamiliers = [
         zone : "Montagne de Gros-caillou",
         numéro : 121,
         element : "Terre:8-Givre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/RadobaanLogo.png",
+        detail : "../../assets/img/pet/RadobaanDetails.PNG",
+},
     {
         nom : "Dragon-Typhon",
         attribut : "Volant",
@@ -1099,7 +1462,10 @@ const   listFamiliers = [
         zone : "Désert de Cora",
         numéro : 122,
         element : "Terre:2-Givre:8"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon-TyphonLogo.png",
+        detail : "../../assets/img/pet/Dragon-TyphonDetails.PNG",
+},
     {
     nom : "Dragon-tyran",
     attribut : "ATQ",
@@ -1108,7 +1474,10 @@ const   listFamiliers = [
     zone : "Foret tropicale de sinbad",
     numéro : 123,
     element : "Feu:10"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon-tyranLogo.png",
+        detail : "../../assets/img/pet/Dragon-tyranDetails.PNG",
+},
     {
     nom : "Panda roux",
     attribut : "Assistance",
@@ -1117,7 +1486,10 @@ const   listFamiliers = [
     zone : "Desert de bata",
     numéro : 124,
     element : "Feu:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Panda rouxLogo.png",
+        detail : "../../assets/img/pet/Panda rouxDetails.PNG",
+},
     
     {
         nom : "Pangolin en chef",
@@ -1127,7 +1499,10 @@ const   listFamiliers = [
         zone : "Désert de Cora",
         numéro : 125,
         element : "Foudre:3-Terre:7"
-    },
+    ,
+        logo : "../../assets/img/pet/Pangolin en chefLogo.png",
+        detail : "../../assets/img/pet/Pangolin en chefDetails.PNG",
+},
     {
         nom : "Raptor Noir",
         attribut : "Dragon terre",
@@ -1136,7 +1511,10 @@ const   listFamiliers = [
         zone : "Oasis de Papeto",
         numéro : 126,
         element : "Foudre:3-Terre:7"
-    },
+    ,
+        logo : "../../assets/img/pet/Raptor NoirLogo.png",
+        detail : "../../assets/img/pet/Raptor NoirDetails.PNG",
+},
     {
         nom : "Colibri argenté",
         attribut : "Volant",
@@ -1145,7 +1523,10 @@ const   listFamiliers = [
         zone : "Oasis de Papeto",
         numéro : 127,
         element : "Terre:3-Givre:7"
-    },
+    ,
+        logo : "../../assets/img/pet/Colibri argentéLogo.png",
+        detail : "../../assets/img/pet/Colibri argentéDetails.PNG",
+},
     {
         nom : "Vargr Blanc",
         attribut : "Bête",
@@ -1154,7 +1535,10 @@ const   listFamiliers = [
         zone : "Oasis de Papeto",
         numéro : 128,
         element : "Terre:3-Givre:7"
-    },
+    ,
+        logo : "../../assets/img/pet/Vargr BlancLogo.png",
+        detail : "../../assets/img/pet/Vargr BlancDetails.PNG",
+},
     {
         nom : "Protodragon",
         attribut : "Dragon terre",
@@ -1163,7 +1547,10 @@ const   listFamiliers = [
         zone : "Oasis de Papeto",
         numéro : 129,
         element : "Terre:10"
-    },
+    ,
+        logo : "../../assets/img/pet/ProtodragonLogo.png",
+        detail : "../../assets/img/pet/ProtodragonDetails.PNG",
+},
     {
         nom : "Dragon lion de Glace",
         attribut : "Volant",
@@ -1172,7 +1559,10 @@ const   listFamiliers = [
         zone : "Lac salé des Gyséens",
         numéro : 130,
         element : "Terre:2-Givre:8"
-    },
+    ,
+        logo : "../../assets/img/pet/Dragon lion de GlaceLogo.png",
+        detail : "../../assets/img/pet/Dragon lion de GlaceDetails.PNG",
+},
     {
         nom : "oiseau cui-cui",
         attribut : "Volant",
@@ -1181,7 +1571,10 @@ const   listFamiliers = [
         zone : "Montagne de Gros-caillou",
         numéro : 131,
         element : "Foudre:2-Terre:8"
-    },
+    ,
+        logo : "../../assets/img/pet/oiseau cui-cuiLogo.png",
+        detail : "../../assets/img/pet/oiseau cui-cuiDetails.PNG",
+},
     {
         nom : "Ornithorynque furieux",
         attribut : "Aquatique",
@@ -1190,7 +1583,10 @@ const   listFamiliers = [
         zone : "Lac Salé des Gyséens",
         numéro : 132,
         element : "Feu:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Ornithorynque furieuxLogo.png",
+        detail : "../../assets/img/pet/Ornithorynque furieuxDetails.PNG",
+},
     {
         nom : "Aiguille de mer",
         attribut : "Dragon terre",
@@ -1199,7 +1595,10 @@ const   listFamiliers = [
         zone : "Lac salé des Gyséens",
         numéro : 133,
         element : "Terre:1-Givre:9"
-    },
+    ,
+        logo : "../../assets/img/pet/Aiguille de merLogo.png",
+        detail : "../../assets/img/pet/Aiguille de merDetails.PNG",
+},
     {
     nom : "???", //T.rex de foudre
     attribut : "ATQ",
@@ -1208,7 +1607,10 @@ const   listFamiliers = [
     zone : "Bois de warry",
     numéro : 134,
     element : "Foudre:8-Terre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     
     {
         nom : "???",
@@ -1218,7 +1620,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 135,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1227,7 +1632,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 136,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1236,7 +1644,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 137,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1245,7 +1656,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 138,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1254,7 +1668,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 139,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???", //Oiseau dudu
         attribut : "Symbiose",
@@ -1263,7 +1680,10 @@ const   listFamiliers = [
         zone : "Montagne Boulder",
         numéro : 140,
         element : "Terre:8-Foudre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1272,7 +1692,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 141,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "Morse en chef",
         attribut : "Aquatique",
@@ -1281,7 +1704,10 @@ const   listFamiliers = [
         zone : "Cote des chutes géantes",
         numéro : 142,
         element : "Terre:1-Givre:9"
-    },
+    ,
+        logo : "../../assets/img/pet/Morse en chefLogo.png",
+        detail : "../../assets/img/pet/Morse en chefDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1290,7 +1716,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 143,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1299,7 +1728,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 144,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "Ecureuil volant de foudre",
         attribut : "Volant",
@@ -1308,7 +1740,10 @@ const   listFamiliers = [
         zone : "Lac salé des Gyséens",
         numéro : 145,
         element : "Feu:3-Foudre:7"
-    },
+    ,
+        logo : "../../assets/img/pet/Ecureuil volant de foudreLogo.png",
+        detail : "../../assets/img/pet/Ecureuil volant de foudreDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1317,7 +1752,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 146,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1326,7 +1764,10 @@ const   listFamiliers = [
         zone : "???",
         numéro :147,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1335,7 +1776,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 148,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
     nom : "Ours brun et roux en chef",
     attribut : "Guardien",
@@ -1344,7 +1788,10 @@ const   listFamiliers = [
     zone : "Foret tropicale de sabada",
     numéro : 149,
     element : "Feu:8-Givre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Ours brun et roux en chefLogo.png",
+        detail : "../../assets/img/pet/Ours brun et roux en chefDetails.PNG",
+},
     {
     nom : "???",
     attribut : "???",
@@ -1353,7 +1800,10 @@ const   listFamiliers = [
     zone : "???",
     numéro : 150,
     element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1362,7 +1812,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 151,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1371,7 +1824,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 152,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1380,7 +1836,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 153,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "Loup roux alpha",
         attribut : "Bête",
@@ -1389,7 +1848,10 @@ const   listFamiliers = [
         zone : "Désert de Cora",
         numéro : 154,
         element : "Feu:9-Foudre:1"
-    },
+    ,
+        logo : "../../assets/img/pet/Loup roux alphaLogo.png",
+        detail : "../../assets/img/pet/Loup roux alphaDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1398,7 +1860,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 155,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1407,7 +1872,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 156,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1416,7 +1884,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 157,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1425,7 +1896,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 158,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1434,7 +1908,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 159,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1443,7 +1920,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 160,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1452,7 +1932,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 161,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1461,7 +1944,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 162,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1470,7 +1956,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 163,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1479,7 +1968,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 164,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1488,7 +1980,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 165,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1497,7 +1992,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 166,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1506,7 +2004,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 167,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1515,7 +2016,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 168,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1524,7 +2028,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 169,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1533,7 +2040,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 170,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1542,7 +2052,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 171,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "Petit Narval",
         attribut : "Symbiose",
@@ -1551,7 +2064,10 @@ const   listFamiliers = [
         zone : "Côte des chutes géantes",
         numéro : 172,
         element : "Terre:3-Givre:7"
-    },
+    ,
+        logo : "../../assets/img/pet/Petit NarvalLogo.png",
+        detail : "../../assets/img/pet/Petit NarvalDetails.PNG",
+},
     {
         nom : "Narval alpha de tonnerre",
         attribut : "Symbiose",
@@ -1560,7 +2076,10 @@ const   listFamiliers = [
         zone : "Mer de Rabo",
         numéro : 173,
         element : "Foudre:8-Terre2"
-    },
+    ,
+        logo : "../../assets/img/pet/Narval alpha de tonnerreLogo.png",
+        detail : "../../assets/img/pet/Narval alpha de tonnerreDetails.PNG",
+},
     {
         nom : "Lièvre de mer bleu",
         attribut : "Assistance",
@@ -1569,7 +2088,10 @@ const   listFamiliers = [
         zone : "Côte des chutes géantes",
         numéro : 174,
         element : "Terre:3-Givre:7"
-    },
+    ,
+        logo : "../../assets/img/pet/Lièvre de mer bleuLogo.png",
+        detail : "../../assets/img/pet/Lièvre de mer bleuDetails.PNG",
+},
     {
         nom : "Lièvre de mer blanc",
         attribut : "Assistance",
@@ -1578,7 +2100,10 @@ const   listFamiliers = [
         zone : "Côte des chutes géantes",
         numéro : 175,
         element : "Terre:3-Givre:7"
-    },
+    ,
+        logo : "../../assets/img/pet/Lièvre de mer blancLogo.png",
+        detail : "../../assets/img/pet/Lièvre de mer blancDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1587,7 +2112,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 176,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "Hippocampe des vases",
         attribut : "Assistance",
@@ -1596,7 +2124,10 @@ const   listFamiliers = [
         zone : "Mer de Rabo",
         numéro : 177,
         element : "Terre:7-Givre:3"
-    },
+    ,
+        logo : "../../assets/img/pet/Hippocampe des vasesLogo.png",
+        detail : "../../assets/img/pet/Hippocampe des vasesDetails.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1605,7 +2136,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 178,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1614,7 +2148,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 179,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1623,7 +2160,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 180,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "???",
@@ -1632,7 +2172,10 @@ const   listFamiliers = [
         zone : "???",
         numéro : 181,
         element : "???"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???", //Foudre Assistance
         attribut : "Volant",
@@ -1641,7 +2184,10 @@ const   listFamiliers = [
         zone : "Lac salé des Gyséens",
         numéro : 182,
         element : "Foudre:8-Terre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "Volant",
@@ -1650,7 +2196,10 @@ const   listFamiliers = [
         zone : "Lac salé des Gyséens",
         numéro : 183,
         element : "Foudre:8-Terre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "???",
         attribut : "Volant",
@@ -1659,7 +2208,10 @@ const   listFamiliers = [
         zone : "Lac salé des Gyséens",
         numéro : 184,
         element : "Foudre:8-Terre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Logo.png",
+        detail : "../../assets/img/pet/Details.PNG",
+},
     {
         nom : "Foudre symbiose",
         attribut : "Volant",
@@ -1668,7 +2220,10 @@ const   listFamiliers = [
         zone : "Lac salé des Gyséens",
         numéro : 185,
         element : "Foudre:8-Terre:2"
-    },
+    ,
+        logo : "../../assets/img/pet/Foudre symbioseLogo.png",
+        detail : "../../assets/img/pet/Foudre symbioseDetails.PNG",
+},
 ]
  
 
