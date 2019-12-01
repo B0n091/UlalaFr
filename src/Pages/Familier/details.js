@@ -71,7 +71,7 @@ export default function PetDetails(props) {
                     id="classic-modal-slide-description"
                     className={classes.modalBody}
                   >
-                       <img className="petDetails" src={require("../../assets/img/pet/" + `${props.pet.nom}` + "Details.PNG")}  alt={props.pet.nom} />
+                       <img className="petDetails" src={require("../../assets/img/pet/" + pet.nom + "Details.PNG")}  alt={props.pet.nom} />
                   </DialogContent>
                 </Dialog>
                 </div>
