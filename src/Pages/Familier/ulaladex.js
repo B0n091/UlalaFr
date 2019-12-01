@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./ulaladex.css"
 import listFamiliers from './familiers';
-import PetDetails from '../../Composants/Familier/details';
+import PetDetails from './details';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Radio from '@material-ui/core/Radio';
@@ -59,18 +59,15 @@ export default function UlalaDex() {
 
  let dListFamilier = <div className="listFamiliers">
    {cListFamilier.map(function(familier){
-     console.log("Value condition", (((value == "Aucun" || familier.element.split("-")[0].split(":")[0] == value || familier.element.split("-")[familier.element.split("-").length - 1].split(":")[0] == value ) 
-            && (value2 == "Aucun" || familier.element.split("-")[0].split(":")[0] == value2 || familier.element.split("-")[familier.element.split("-").length - 1].split(":")[0] == value2 ))))
-
      if (((value == "Aucun" || (familier.element.split("-")[0].split(":")[0] == value && (lvl1 == 0 || familier.element.split("-")[0].split(":")[1] == lvl1)) 
                             || (familier.element.split("-")[familier.element.split("-").length - 1].split(":")[0] == value && (lvl1 == 0 ||familier.element.split("-")[familier.element.split("-").length - 1].split(":")[1] == lvl1 )))) 
             && ((value2 == "Aucun"  || (familier.element.split("-")[0].split(":")[0] == value2 && (lvl2 == 0 || familier.element.split("-")[0].split(":")[1] == lvl2))
                                   || familier.element.split("-")[familier.element.split("-").length - 1].split(":")[0] == value2 && (lvl2 == 0 || familier.element.split("-")[familier.element.split("-").length - 1].split(":")[1] == lvl2 )))) 
           {
-            console.log(familier.element)
+if (familier.nom != "???"){
      return (<div className="familier">
                <PetDetails pet={familier} />
-     </div>)}
+     </div>)}}
      return
      }
    )}

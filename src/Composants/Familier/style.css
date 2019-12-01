@@ -14,3 +14,7 @@
     text-align: left;
     vertical-align: top;
 }
+
+.petDetails {
+    height: 60vh;
+}
