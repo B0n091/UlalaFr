@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./ulaladex.css"
 import listFamiliers from './familiers';
-import PetDetails from '../../Composants/Familier/details';
+import PetDetails from './details';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Radio from '@material-ui/core/Radio';
