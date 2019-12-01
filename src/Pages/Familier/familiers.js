@@ -1323,7 +1323,7 @@ const   listFamiliers = [
         detail : "../../assets/img/pet/Coup de FoudreDetails.PNG",
 },
     {
-        nom : "Yack Alpha",
+        nom : "???",
         attribut : "Herbivore",
         type : "Symbiose",
         favori : "Mélange de légumes sauvages",
