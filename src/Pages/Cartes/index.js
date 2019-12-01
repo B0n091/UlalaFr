@@ -118,7 +118,7 @@ class CartePage extends Component {
       {deckList}
       <div className="divDeckBonus">
         <div className="deckBonusLeft">
-          Ataque : {this.state["ATQ"]} <br />
+          Attaque : {this.state["ATQ"]} <br />
           Armure : {this.state["ARMURE"]}<br />
           PV : {this.state["PV"]}<br />
           Parade : {this.state["Parade"]}<br />

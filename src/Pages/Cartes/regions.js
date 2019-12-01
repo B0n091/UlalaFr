@@ -14,9 +14,9 @@ const listRegions = {
         Nombre : 0,
         nbBonus : 2, 
         Bonus : [
-            "Lorsque vous accédez au champ de bataille Crit + 600",
-		    "Lorsque vous accédez au champ de bataille Crit + 1200",
-		    "Lorsque vous accédez au champ de bataille Crit + 1800"
+            "Lorsque vous accédez au champ de bataille ATQ +20% de la carte plaine",
+		    "Lorsque vous accédez au champ de bataille ATQ +40% de la carte plaine",
+		    "Lorsque vous accédez au champ de bataille ATQ +60% de la carte plaine"
         ]
     },
     "Desert" : {
