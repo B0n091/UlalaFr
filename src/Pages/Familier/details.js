@@ -30,9 +30,8 @@ export default function PetDetails(props) {
 
     const [classicModal, setClassicModal] = React.useState(false);
     const pet = props.pet
-
-  return (
-      <div>
+    
+    let dPet = <div>
     <img 
     color="primary"
     block
@@ -79,5 +78,10 @@ export default function PetDetails(props) {
                   </DialogContent>
                 </Dialog>
                 </div>
+
+  return (
+      <div>
+        {dPet}
+      </div>
   );
 }
