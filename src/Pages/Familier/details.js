@@ -38,11 +38,12 @@ export default function PetDetails(props) {
     <img 
     color="primary"
     className="imgDetail"
-    block
-    src={imgDetails}
+    //block
+    key={pet.numéro}
+    src={require("../../assets/img/pet/" + pet.nom + "Details.PNG")}
     //src={require("../../assets/img/pet/" + pet.nom + "Logo.png")}
     alt={pet.nom}
-    onClick={() => setClassicModal(true)}
+    //onClick={() => setClassicModal(true)}
   />
    { /*<Dialog
                   classes={{
