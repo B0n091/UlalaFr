@@ -40,8 +40,8 @@ export default function PetDetails(props) {
     className="imgDetail"
     //block
     key={pet.numéro}
-    src={require("../../assets/img/pet/" + pet.nom + "Details.PNG")}
-    //src={require("../../assets/img/pet/" + pet.nom + "Logo.png")}
+    //src={require("../../assets/img/pet/" + pet.nom + "Details.PNG")}
+    src={require("../../assets/img/pet/" + pet.nom + "Logo.png")}
     alt={pet.nom}
     //onClick={() => setClassicModal(true)}
   />
