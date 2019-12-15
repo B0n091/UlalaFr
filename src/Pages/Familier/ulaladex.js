@@ -15,11 +15,36 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
 import InputLabel from '@material-ui/core/InputLabel';
 
+
+
+import "./style.css"
+import Button from "../../Composants/CustomButtons/Button.js";
+import Dialog from "@material-ui/core/Dialog";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogActions from "@material-ui/core/DialogActions";
+import Close from "@material-ui/icons/Close";
+import IconButton from "@material-ui/core/IconButton";
+
+import styles from "../../assets/jss/material-kit-react/views/componentsSections/javascriptStyles.js";
+import Slide from "@material-ui/core/Slide";
+
+
+
+
 const useStyles = makeStyles(theme => ({
   formControl: {
     margin: theme.spacing(3),
   },
 }));
+
+const useStyles2 = makeStyles(styles)
+
+const Transition = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="down" ref={ref} {...props} />;
+});
+
+Transition.displayName = "Transition";
 
 export default function UlalaDex() {
 
@@ -28,6 +53,11 @@ export default function UlalaDex() {
   const [value2, setValue2] = React.useState('Aucun');
   const [lvl1, setLvl] = React.useState(0);
   const [lvl2, setLvl2] = React.useState(0);
+
+  const classes2 = useStyles2()
+
+  const [classicModal, setClassicModal] = React.useState(false);
+
 
   const handleChange = event => {
     setValue(event.target.value);
@@ -66,7 +96,50 @@ export default function UlalaDex() {
           {
 if (familier.nom != "???"){
      return (<div className="familier">
-               <PetDetails pet={familier} />
+               <div>
+    <img 
+    color="primary"
+    block
+    src={require("../../assets/img/pet/" + familier.nom + "Logo.png")}
+    alt={familier.nom}
+    onClick={() => setClassicModal(true)}
+  />
+    <Dialog
+                  classes={{
+                    root: classes2.center,
+                    paper: classes2.modal
+                  }}
+                  open={classicModal}
+                  TransitionComponent={Transition}
+                  keepMounted
+                  onClose={() => setClassicModal(false)}
+                  aria-labelledby="classic-modal-slide-title"
+                  aria-describedby="classic-modal-slide-description"
+                >
+                  <DialogTitle
+                    id="classic-modal-slide-title"
+                    disableTypography
+                    className={classes.modalHeader}
+                  >
+                    <IconButton
+                      className={classes2.modalCloseButton}
+                      key="close"
+                      aria-label="Close"
+                      color="inherit"
+                      onClick={() => setClassicModal(false)}
+                    >
+                      <Close className={classes2.modalClose} />
+                    </IconButton>
+                <h4 className={classes2.modalTitle}>{familier.nom}</h4>
+                  </DialogTitle>
+                  <DialogContent
+                    id="classic-modal-slide-description"
+                    className={classes2.modalBody}
+                  >
+                       <img className="petDetails" src={require("../../assets/img/pet/" + familier.nom + "Details.PNG")}  alt={familier.nom} />
+                  </DialogContent>
+                </Dialog>
+                </div>
      </div>)}}
      return
      }
