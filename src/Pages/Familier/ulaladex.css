@@ -1,6 +1,16 @@
 .familier {
     display: inline-block;
     margin: 16px 32px;
+    width: 25%;
+    min-width: 200px;
+}
+
+@media screen and (max-width: 640px) {
+    .familier {
+        display: block;
+        width: 80%;
+        margin: 16px auto;
+    }
 }
 
 .sectionUlalaDex {

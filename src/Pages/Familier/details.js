@@ -12,6 +12,8 @@ import styles from "../../assets/jss/material-kit-react/views/componentsSections
 import { makeStyles } from "@material-ui/core/styles";
 import Slide from "@material-ui/core/Slide";
 
+import "./style.css"
+
 
 
 
@@ -35,12 +37,14 @@ export default function PetDetails(props) {
     let dPet = <div>
     <img 
     color="primary"
+    className="imgDetail"
     block
-    src={require("../../assets/img/pet/" + pet.nom + "Logo.png")}
+    src={imgDetails}
+    //src={require("../../assets/img/pet/" + pet.nom + "Logo.png")}
     alt={pet.nom}
     onClick={() => setClassicModal(true)}
   />
-    <Dialog
+   { /*<Dialog
                   classes={{
                     root: classes.center,
                     paper: classes.modal
@@ -74,7 +78,7 @@ export default function PetDetails(props) {
                   >
                        <img className="petDetails" src={imgDetails}  alt={props.pet.nom} />
                   </DialogContent>
-                </Dialog>
+                </Dialog> */}
                 </div>
 
   return (

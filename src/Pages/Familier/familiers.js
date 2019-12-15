@@ -1,5 +1,5 @@
 const   listFamiliers = [ 
-    /*{  
+    {  
         nom : "Mobelin",
         type : "Herbivore",
         favori : "Brochette",
@@ -9,7 +9,7 @@ const   listFamiliers = [
     ,
         logo : "../../assets/img/pet/MobelinLogo.png",
         detail : "../../assets/img/pet/MobelinDetails.PNG",
-},*/
+},
     {  
         nom : "Mobelin bleu",
         attribut : "Symbiose",
