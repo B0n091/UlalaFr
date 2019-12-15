@@ -32,7 +32,7 @@ export default function PetDetails(props) {
     const [classicModal, setClassicModal] = React.useState(false);
     const pet = props.pet
 
-    let imgDetails = require("../../assets/img/pet/" + pet.nom + "Details.PNG")
+    //let imgDetails = require("../../assets/img/pet/" + pet.nom + "Details.PNG")
     
     let dPet = <div>
     <img 
