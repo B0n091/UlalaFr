@@ -14,7 +14,6 @@ import Slide from "@material-ui/core/Slide";
 
 
 
-import "./style.css"
 
 const useStyles = makeStyles(styles);
 
@@ -30,6 +29,8 @@ export default function PetDetails(props) {
 
     const [classicModal, setClassicModal] = React.useState(false);
     const pet = props.pet
+
+    let imgDetails = require("../../assets/img/pet/" + pet.nom + "Details.PNG")
     
     let dPet = <div>
     <img 
@@ -71,7 +72,7 @@ export default function PetDetails(props) {
                     id="classic-modal-slide-description"
                     className={classes.modalBody}
                   >
-                       <img className="petDetails" src={require("../../assets/img/pet/" + pet.nom + "Details.PNG")}  alt={props.pet.nom} />
+                       <img className="petDetails" src={imgDetails}  alt={props.pet.nom} />
                   </DialogContent>
                 </Dialog>
                 </div>
